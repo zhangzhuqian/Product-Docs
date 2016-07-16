@@ -12,3 +12,4 @@ var json = {
                     manage=60//管理行为 
                 }
             }
+
