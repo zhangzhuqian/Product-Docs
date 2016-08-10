@@ -1,0 +1,6 @@
+<MKM version="2.0" minAppVer="2.0.0" imageFileUrl="">
+  <Marks>
+    <TextMark x="127" y="1083" color="255" offsetX="25" offsetY="10" defaultDirection="9" direction="9" textMaxWidth="136" text="#000000 10%"/>
+    <TextMark x="121" y="1180" color="255" offsetX="25" offsetY="10" defaultDirection="9" direction="9" textMaxWidth="136" text="std_dialog3"/>
+  </Marks>
+</MKM>

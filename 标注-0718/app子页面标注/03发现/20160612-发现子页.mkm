@@ -1,0 +1,25 @@
+<MKM version="2.0" minAppVer="2.0.0" imageFileUrl="">
+  <Marks>
+    <LengthMark x="376" y="205" color="16711680" length="30" direction="3"/>
+    <LengthMark x="376" y="134" color="16711680" length="30" direction="3"/>
+    <LengthMark x="454" y="186" color="16711680" length="20" direction="12"/>
+    <LengthMark x="277" y="186" color="16711680" length="20" direction="12"/>
+    <LengthMark x="713" y="293" color="16711680" length="38" direction="12"/>
+    <LengthMark x="0" y="293" color="16711680" length="38" direction="12"/>
+    <LengthMark x="121" y="556" color="16711680" length="24" direction="3"/>
+    <LengthMark x="121" y="340" color="16711680" length="24" direction="3"/>
+    <LengthMark x="121" y="387" color="16711680" length="24" direction="3"/>
+    <LengthMark x="121" y="474" color="16711680" length="24" direction="3"/>
+    <LengthMark x="121" y="499" color="16711680" length="24" direction="3"/>
+    <LengthMark x="37" y="331" color="16711680" length="24" direction="12"/>
+    <LengthMark x="53" y="883" color="16711680" length="360" direction="3"/>
+    <LengthMark x="60" y="874" color="16711680" length="630" direction="12"/>
+    <LengthMark x="126" y="237" color="16711680" length="34" direction="3"/>
+    <LengthMark x="361" y="581" color="16711680" length="60" direction="3"/>
+    <TextMark x="43" y="230" color="16711680" offsetX="31" offsetY="31" defaultDirection="9" direction="9" textMaxWidth="245" text="描边：#000000 10%&#xD;          px10&#xD;"/>
+    <TextMark x="457" y="161" color="16711680" offsetX="25" offsetY="13" defaultDirection="9" direction="9" textMaxWidth="245" text="灰框：#000000 15%&#xD;          px10&#xD;备注：文字与边 始终保持20px               的距离"/>
+    <TextMark x="221" y="389" color="255" offsetX="25" offsetY="10" defaultDirection="9" direction="9" textMaxWidth="160" text="px24&#xD;#000000 40%"/>
+    <TextMark x="194" y="255" color="255" offsetX="25" offsetY="10" defaultDirection="9" direction="9" textMaxWidth="160" text="px32&#xD;#000000 80%"/>
+    <TextMark x="475" y="646" color="255" offsetX="25" offsetY="10" defaultDirection="9" direction="9" textMaxWidth="100" text="px22&#xD;#ffffff"/>
+  </Marks>
+</MKM>
