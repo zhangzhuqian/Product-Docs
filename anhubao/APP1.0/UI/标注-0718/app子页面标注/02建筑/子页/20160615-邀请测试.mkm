@@ -1,0 +1,21 @@
+<MKM version="2.0" minAppVer="2.0.0" imageFileUrl="">
+  <Marks>
+    <LengthMark x="89" y="134" color="16711680" length="60" direction="3"/>
+    <LengthMark x="0" y="204" color="16711680" length="42" direction="12"/>
+    <LengthMark x="89" y="224" color="16711680" length="20" direction="3"/>
+    <LengthMark x="0" y="287" color="16711680" length="40" direction="12"/>
+    <LengthMark x="78" y="309" color="16711680" length="30" direction="3"/>
+    <LengthMark x="477" y="410" color="16711680" length="94" direction="3"/>
+    <LengthMark x="129" y="293" color="16711680" length="30" direction="12"/>
+    <LengthMark x="722" y="288" color="16711680" length="30" direction="12"/>
+    <LengthMark x="477" y="244" color="16711680" length="94" direction="3"/>
+    <LengthMark x="381" y="473" color="16711680" length="30" direction="3"/>
+    <LengthMark x="0" y="606" color="16711680" length="375" direction="12"/>
+    <LengthMark x="130" y="711" color="16711680" length="30" direction="3"/>
+    <LengthMark x="220" y="693" color="16711680" length="48" direction="3"/>
+    <LengthMark x="159" y="688" color="16711680" length="8" direction="12"/>
+    <LengthMark x="1" y="676" color="16711680" length="90" direction="12"/>
+    <LengthMark x="416" y="504" color="16711680" length="116" direction="3"/>
+    <LengthMark x="417" y="337" color="16711680" length="74" direction="3"/>
+  </Marks>
+</MKM>

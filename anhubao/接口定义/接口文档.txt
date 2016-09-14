@@ -1,0 +1,361 @@
+短信注册页面
+url    http://anhubo.com/api/User/register
+要求参数:{
+telphone:           varchar
+verify_code         varchar
+password            varchar
+qrcode              varchar
+}
+
+返回数据{
+"code"：            
+"msg"：
+"data"：空或array(
+ 'uid'=>$uid
+)
+}
+
+
+
+
+
+//第二个注册页面（含建筑等信息）
+url    http://anhubo.com/api/User/businessRegister
+
+要求数据{
+'uid' :                       int           //用户id
+'building_name':              varchar       //建筑物名称
+'floor_name':                   int           //楼层数
+'area_name':                  varchar       //区域名称
+'business_name':                       varchar       //单位名称
+}
+
+返回值{
+    "code" :      ,           int
+    "msg" : "错误或成功信息",
+    "data":{
+       //空数组或用户信息
+       uid：                   int          //用户id
+       business_id：           int          //建筑物id
+       building_id：           int          //单位id
+       'business_name'         varchar       //单位名称
+       'building_name'         varchar       //建筑名称
+    }
+}
+
+
+
+
+
+
+
+
+
+
+//短信登陆失败后的注册页面
+url    http://anhubo.com/api/User/registerSecond
+
+要求数据{
+
+'telphone'                      varchar           //用户id
+'password'                      varchar       //密码
+
+}
+
+返回值{
+    "code" :      ,           int
+    "msg" : "错误或成功信息",
+    "data":{
+       //空数组或用户信息
+       'uid'=>                int           //用户id
+    }
+}
+
+
+
+
+
+//短信登陆
+url   http://anhubo.com/api/User/duanxinLogin
+
+要求数据{
+'telphone' :                     varchar           //电话号码
+'verify_code':                   varchar           //验证码
+
+}
+
+返回值{
+    "code" :      ,           int
+    "msg" : "错误或成功信息",
+    "data":{
+       //空数组或用户信息
+       uid：                   int          //用户id
+       business_id：           int          //建筑物id
+       building_id：           int          //单位id
+'business_name'               varchar       //单位名称
+'building_name'               varchar       //建筑名称
+    }
+}
+
+
+
+
+
+
+
+//密码登陆
+url   http://anhubo.com/api/User/mimaLogin
+
+要求数据{
+'telphone' :                  varchar           //用户id
+'password':                   varchar       //密码
+
+}
+
+返回值{
+    "code" :      ,           int
+    "msg" : "错误或成功信息",
+    "data":{
+       //空数组或用户信息
+       uid：                   int          //用户id
+       business_id：           int          //建筑物id
+       building_id：           int          //单位id
+'business_name'               varchar       //单位名称
+'building_name'               varchar       //建筑名称
+    }
+}
+
+
+//验证邀请码
+url    http://anhubo.com/api/User/verify_qrcode
+要求数据{
+'qrcode' :                      varchar          //邀请码
+}
+
+返回值{
+    "code" :      ,           int
+    "msg" : "错误或成功信息",
+    
+}
+
+
+
+
+
+//三色预警页面
+url  http://anhubo.com/api/BusinessChart/index
+要求数据{
+'business_id' :                       int          //商铺的id
+
+}
+
+返回值{
+    "code" :              int
+    "msg" :               null,
+    "data":{
+       //商铺的预警信息
+       time：                  datetime     //评估时间
+       Avg                     int          //平均数
+'sub_score1' :                      int          //知识水平
+'sub_score2' :                      int          //设施设备
+'sub_score3' :                      int          //管理行为
+'sub_score4' :                      int          //疏散逃生
+'sub_score5' :                      int          //参与人数
+'sub_score6' :                      int           //行政审批
+‘grade’                         varchar        //评价等级
+    }
+}
+
+
+//学习题目
+url    http://anhubo.com/api/Study/questions
+要求数据{
+'uid' :                      int          //用户id
+}
+
+返回值{
+    "code" :              int
+    "msg" :               null,
+    "data":{
+        "0":"[ "question_id"  ，                      int\",
+           \"question  \"   ，                       varchar,  //题目
+          \" question_pic\"  ，                       varchar,  
+         \" answer:  答案a_答案b_答案c_答案d\"， 
+          //\" answer_pic\"      ，                   varchar,
+          \"display_type\"                           varchar//文文0，文图1
+         ]", 
+
+        "1":"["question_id:"  ，           int\",\"question:  \"   ，                      varchar,  //题目
+        \" question_pic\"  ，                      varchar,  
+        \" answer:  答案a_答案b_答案c_答案d\"，
+        //\" answer_pic\"      ，                  varchar,
+         \"display_type\"                          varchar//文文0，文图1
+          ]"，   
+..........共十道题 
+   }
+}
+
+
+
+
+//学习成绩
+url    http://anhubo.com/api/Study/get_score
+要求数据{
+'uid' :                      int             ,       //用户id
+'option':     { "question_id"："answer" ,            //问题序号：答案的选项
+                "question_id"："answer" ,                        
+            }
+}
+
+返回值{
+    "code" :              int
+    "msg" :               null,
+    "data":{
+         ‘score_sun’,                   int         // 总分
+         ‘score_now’,                   int         // 此次所得积分       
+}
+
+
+
+
+
+
+//学习解析
+url    http://anhubo.com/api/Study/get_analysis
+要求数据{
+'qid_arr': '问题id/问题id/问题id/问题id.. '                       //问题的id
+}
+
+返回值{
+    "code" :              int
+    "msg" :               null,
+    "data":{
+        "question_id":"question_analysis",         //解析
+        "question_id":"question_analysis",
+        "question_id":"question_analysis"
+}
+                
+}
+
+
+
+//查询此设备ID详细信息
+url    http://anhubo.com/api/Device/get_device_detail
+要求数据{
+'device_id' :                   varchar           //设备识别码
+
+返回值{
+    "code" :              int
+    "msg" :               null,
+    "data":{
+          'device_name'                         varchar         
+          'require_date_flag '                  int       
+         ‘device_exist’：                     int               //1
+          'device_id':                          varchar           //设备识别码
+          "require_list": "[\"安装是否牢固\",\"安装是否平衡\",\"安装是否不斜\",\"安装是否不松动\",\"组件是否齐全\"]" 
+           }               
+       }
+
+
+
+
+
+//添加设备信息
+url    http://anhubo.com/api/Device/add_device_info
+要求数据{
+'qrcode' :                      varchar           //二维码
+'type' :                        varchar           //类型
+'building_name' :               varchar           //建筑
+'area_name' :                   varchar           //区域
+'business_name' :               varchar           //商铺
+'name'                          varchar           //名称
+
+}
+{
+图片要求：字段file：file_name        //格式 jpg/jpeg/png/gif
+}
+返回值{
+    "code" :              int
+    "msg" :               null,
+    "data":
+       {
+            device_id          int                 //设备id
+       }
+
+}
+
+
+
+
+
+//完成设备检查
+url    http://anhubo.com/api/Device/check_device_re
+要求数据{
+'device_id' :                      int             //设备id
+'device_result' ： "["/0"/,"/1"/,"/1"/  ]"         //检查结果
+‘uid'          ：                 int             //用户id
+"end_time" :            Y-m-d           varchar    //完成时间
+}
+返回值{
+    "code" :              int
+    "msg" :               null,
+    "data":[]              
+}
+
+
+
+
+//下拉设备表
+
+url    http://anhubo.com/api/Device/check_device_list
+要求数据{
+'business_id' :                      int             //单位id
+}
+返回值{
+    "code" :              int
+    "msg" :               null,
+    "data":{              
+              device_id:name,         
+              device_id:name, 
+              device_id:name,
+               ......                
+            }               
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//头像保存
+url    http://anhubo.com/api/Test/save_pic
+要求数据{
+          'uid'              int                   //用户名
+}
+{
+图片要求：字段file：file_name        //格式 jpg/jpeg/png/gif
+}
+返回值{
+    "code" :               int
+    "msg"  :               null,
+    "data" :               array（）               
+}
+
+
+
+
+
+
+

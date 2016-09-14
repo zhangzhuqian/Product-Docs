@@ -1,0 +1,7 @@
+<MKM version="2.0" minAppVer="2.0.0" imageFileUrl="">
+  <Marks>
+    <LengthMark x="302" y="848" color="16711680" length="30" direction="3"/>
+    <TextMark x="326" y="919" color="16711680" offsetX="32" offsetY="8" defaultDirection="10" direction="10" textMaxWidth="100" text="px24&#xD;#5a96ff&#xD;"/>
+    <TextMark x="198" y="913" color="16711680" offsetX="32" offsetY="8" defaultDirection="10" direction="10" textMaxWidth="104" text="px24&#xD;#ffffff&#xD;"/>
+  </Marks>
+</MKM>
