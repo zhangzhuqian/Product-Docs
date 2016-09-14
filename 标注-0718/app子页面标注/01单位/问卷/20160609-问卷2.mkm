@@ -1,8 +1,0 @@
-<MKM version="2.0" minAppVer="2.0.0" imageFileUrl="">
-  <Marks>
-    <TextMark x="87" y="186" color="16711680" offsetX="25" offsetY="10" defaultDirection="9" direction="9" textMaxWidth="100" text="同问卷1"/>
-    <LengthMark x="53" y="301" color="16711680" length="642" direction="12"/>
-    <LengthMark x="41" y="301" color="16711680" length="248" direction="3"/>
-    <TextMark x="67" y="587" color="16711680" offsetX="25" offsetY="10" defaultDirection="9" direction="9" textMaxWidth="100" text="同问卷1"/>
-  </Marks>
-</MKM>
