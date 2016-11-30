@@ -1,0 +1,8 @@
+@namespace ibooks "http://www.apple.com/2011/iBooks";
+@page ::nth-instance
+{
+	height: 748.0pt;
+	width: 1024.0pt;
+	-ibooks-positioned-slots: ;
+}
+

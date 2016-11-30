@@ -1,0 +1,4034 @@
+@namespace ibooks "http://www.apple.com/2011/iBooks";
+@font-face{
+  font-family: "HiraginoSansGB-W3";
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+  src: url("../fonts/Hiragino%20Sans%20GB%20W3.otf");
+}
+@font-face{
+  font-family: "HiraginoSansGB-W6";
+  font-weight: 800;
+  font-style: normal;
+  font-stretch: normal;
+  src: url("../fonts/Hiragino%20Sans%20GB%20W6.otf");
+}
+sup{
+	font-size: 67%;
+	vertical-align: 33%;
+}
+a.anchor{
+	-ibooks-layout-hint: anchor;
+	display: none;
+}
+a.pageShape{
+	-ibooks-layout-hint: anchor page shape;
+	display: none;
+}
+.pagebreak{
+	break-after: page;
+}
+div.multichoice{
+	list-style-type: upper-alpha;
+}
+.columnbreak{
+	break-after: column;
+}
+p, ul, ol{
+	margin: 0px;
+}
+a.shape{
+	-ibooks-layout-hint: shape;
+	display: none;
+}
+body{
+	white-space: pre-wrap;
+}
+.hide{
+	display: none;
+}
+sub{
+	font-size: 67%;
+	vertical-align: -10%;
+}
+a.attachment{
+	-ibooks-layout-hint: inline;
+	display: none;
+}
+table{
+	border-collapse: collapse;
+	white-space: pre-wrap;
+}
+.inlineblock{
+	display: inline;
+}
+a.page{
+	-ibooks-layout-hint: anchor page;
+	display: none;
+}
+.s1{
+	-ibooks-stroke: none;
+	box-shadow: none;
+	fill: none;
+	marker-end: none;
+	marker-start: none;
+	opacity: 1.000;
+	stroke: #818181;
+	stroke-linecap: butt;
+	stroke-linejoin: miter;
+	stroke-miterlimit: 4.0;
+	stroke-width: 0.5pt;
+}
+.s2{
+	-ibooks-stroke: none;
+	box-shadow: none;
+	fill: none;
+	opacity: 1.000;
+	stroke: none;
+}
+.s3{
+	-ibooks-column-count: 1;
+	padding-bottom: 0.0000pt;
+	padding-left: 0.0000pt;
+	padding-right: 0.0000pt;
+	padding-top: 0.0000pt;
+	vertical-align: top;
+}
+.s4{
+	vertical-align: middle;
+}
+.s5{
+	-ibooks-strikethru-type: none;
+	-ibooks-strikethru-width: 1.0000px;
+	-ibooks-underline-type: none;
+	-ibooks-underline-width: 1.0000px;
+	border-bottom-style: none;
+	border-bottom-width: 0.0000px;
+	border-left-style: none;
+	border-left-width: 0.0000px;
+	border-right-style: none;
+	border-right-width: 0.0000px;
+	border-top-style: none;
+	border-top-width: 0.0000px;
+	color: #232323;
+	font-family: "Georgia";
+	font-size: 133.3333%;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	hyphens: auto;
+	letter-spacing: 0.0000em;
+	line-height: 1.200000em;
+	margin-bottom: 0.0000pt;
+	margin-left: 0.0000pt;
+	margin-right: 0.0000pt;
+	margin-top: 0.0000pt;
+	page-break-before: auto;
+	tab-interval: 36.0000pt;
+	tab-stops: none;
+	text-align: left;
+	text-indent: 0.0000pt;
+	text-shadow: none;
+	text-transform: none;
+	vertical-align: 0.0000pt;
+	text-decoration: none;
+}
+.s6{
+	-ibooks-list-text-indent: 0.0000pt;
+	color: #BDC8D7;
+	font-family: "HiraginoSansGB-W3";
+}
+.s7{
+	-ibooks-list-text-indent: 0.0000pt;
+	color: #BDC8D7;
+	font-family: "Helvetica Neue";
+	text-align: right;
+}
+.s8{
+	-ibooks-line-spacing-mode: min;
+	-ibooks-list-text-indent: 0.0000pt;
+	font-family: "HiraginoSansGB-W6";
+	font-size: 416.6667%;
+	font-weight: bold;
+	line-height: 26.000000pt;
+	text-align: center;
+}
+.s9{
+	-ibooks-line-spacing-mode: min;
+	-ibooks-list-text-indent: 0.0000pt;
+	font-family: "HiraginoSansGB-W3";
+	font-size: 166.6667%;
+	line-height: 26.000000pt;
+	text-align: justify;
+}
+.s10{
+	-ibooks-stroke: none;
+	box-shadow: none;
+	fill: #5ABEC1;
+	opacity: 1.000;
+	stroke: #4D4D4D;
+	stroke-linecap: butt;
+	stroke-linejoin: miter;
+	stroke-miterlimit: 4.0;
+	stroke-width: 0.5pt;
+}
+.s11{
+	fill: #021932;
+	stroke: none;
+}
+.s12{
+	fill: #FFFFFF;
+	stroke: none;
+}
+.s13{
+	fill: #1FBCD7;
+	stroke: none;
+}
+.s14{
+	marker-end: url(#SVG_DEF_1);
+	stroke: #1FBCD7;
+	stroke-width: 3.0pt;
+}
+.s15{
+	-ibooks-stroke: none;
+	box-shadow: none;
+	fill: #EBEBEB;
+	opacity: 1.000;
+	stroke: #818181;
+	stroke-linecap: butt;
+	stroke-linejoin: miter;
+	stroke-miterlimit: 4.0;
+	stroke-width: 1.0pt;
+}
+.s16{
+	opacity: 0.000;
+}
+.s17{
+	-ibooks-list-text-indent: 0.0000pt;
+	-ibooks-strikethru-type: none;
+	-ibooks-strikethru-width: 1.0000px;
+	-ibooks-underline-type: none;
+	-ibooks-underline-width: 1.0000px;
+	border-bottom-style: none;
+	border-bottom-width: 0.0000px;
+	border-left-style: none;
+	border-left-width: 0.0000px;
+	border-right-style: none;
+	border-right-width: 0.0000px;
+	border-top-style: none;
+	border-top-width: 0.0000px;
+	color: #606060;
+	font-family: "Georgia";
+	font-size: 125.0000%;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	hyphens: auto;
+	letter-spacing: 0.0000em;
+	line-height: 1.000000em;
+	margin-bottom: 0.0000pt;
+	margin-left: 0.0000pt;
+	margin-right: 0.0000pt;
+	margin-top: 0.0000pt;
+	page-break-before: auto;
+	tab-interval: 36.0000pt;
+	tab-stops: none;
+	text-align: left;
+	text-indent: 0.0000pt;
+	text-shadow: none;
+	text-transform: none;
+	vertical-align: 0.0000pt;
+	text-decoration: none;
+}
+.s18{
+	-ibooks-list-text-indent: 0.0000pt;
+	font-size: 800.0000%;
+	line-height: 1.000000em;
+	text-align: center;
+}
+.s19{
+	fill: rgba(90,190,193,0.000000);
+	stroke: #1FBCD7;
+	stroke-dasharray: 0.0pt 4.0pt;
+	stroke-dashoffset: 0.0pt;
+	stroke-linecap: round;
+	stroke-width: 2.0pt;
+}
+.s20{
+	marker-end: url(#SVG_DEF_2);
+	stroke: #1FBCD7;
+	stroke-dasharray: 0.0pt 4.0pt;
+	stroke-dashoffset: 0.0pt;
+	stroke-linecap: round;
+	stroke-width: 2.0pt;
+}
+.s21{
+	-ibooks-list-text-indent: 0.0000pt;
+	font-family: "HiraginoSansGB-W6";
+	font-size: 250.0000%;
+	font-weight: bold;
+	text-align: center;
+}
+.s22{
+	marker-end: url(#SVG_DEF_3);
+	stroke: #1FBCD7;
+	stroke-dasharray: 0.0pt 4.0pt;
+	stroke-dashoffset: 0.0pt;
+	stroke-linecap: round;
+	stroke-width: 2.0pt;
+}
+.s23{
+	-ibooks-list-text-indent: 0.0000pt;
+	font-family: "HiraginoSansGB-W3";
+	font-size: 166.6667%;
+	line-height: 1.000000em;
+	text-align: justify;
+}
+.s24{
+	-ibooks-line-spacing-mode: min;
+	-ibooks-list-text-indent: 0.0000pt;
+	font-family: "HiraginoSansGB-W6";
+	font-size: 250.0000%;
+	font-weight: bold;
+	line-height: 26.000000pt;
+	text-align: center;
+}
+.s25{
+	-ibooks-stroke: none;
+	box-shadow: -0.0pt 5.0pt 12.0pt rgba(0,0,0,0.400000);
+	fill: #FFFFFF;
+	opacity: 1.000;
+	stroke: #A6A6A6;
+	stroke-linecap: butt;
+	stroke-linejoin: miter;
+	stroke-miterlimit: 4.0;
+	stroke-width: 1.0pt;
+}
+.s26{
+	padding-bottom: 5.0000pt;
+	padding-left: 5.0000pt;
+	padding-right: 5.0000pt;
+	padding-top: 5.0000pt;
+}
+.s27{
+	-ibooks-strikethru-type: none;
+	-ibooks-strikethru-width: 1.0000px;
+	-ibooks-underline-type: none;
+	-ibooks-underline-width: 1.0000px;
+	border-bottom-style: none;
+	border-bottom-width: 0.0000px;
+	border-left-style: none;
+	border-left-width: 0.0000px;
+	border-right-style: none;
+	border-right-width: 0.0000px;
+	border-top-style: none;
+	border-top-width: 0.0000px;
+	color: #606060;
+	font-family: "Georgia";
+	font-size: 133.3333%;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	hyphens: auto;
+	letter-spacing: 0.0000em;
+	line-height: 1.000000em;
+	margin-bottom: 14.0000pt;
+	margin-left: 0.0000pt;
+	margin-right: 0.0000pt;
+	margin-top: 0.0000pt;
+	page-break-before: auto;
+	tab-interval: 36.0000pt;
+	tab-stops: none;
+	text-align: left;
+	text-indent: 0.0000pt;
+	text-shadow: none;
+	text-transform: none;
+	vertical-align: 0.0000pt;
+	text-decoration: none;
+}
+.s28{
+	-ibooks-list-text-indent: 0.0000pt;
+	font-family: "Helvetica Neue";
+	font-size: 200.0000%;
+	font-weight: bold;
+}
+.s29{
+	-ibooks-list-text-indent: 0.0000pt;
+	font-family: "HiraginoSansGB-W3";
+	font-size: 166.6667%;
+}
+.s30{
+	-ibooks-list-text-indent: 0.0000pt;
+	font-family: "HiraginoSansGB-W3";
+	font-size: 150.0000%;
+}
+.s31{
+	-ibooks-list-text-indent: 0.0000pt;
+	font-family: "HiraginoSansGB-W6";
+	font-weight: bold;
+	margin-bottom: 5.0000pt;
+}
+.s32{
+	-ibooks-list-text-indent: 0.0000pt;
+	font-family: "HiraginoSansGB-W3";
+	margin-bottom: 5.0000pt;
+}
+.s33{
+	-ibooks-list-text-indent: 0.0000pt;
+	color: #232323;
+	font-family: "HiraginoSansGB-W6";
+	font-size: 116.6667%;
+	font-weight: bold;
+	line-height: 0.300000em;
+	margin-bottom: 0.0000pt;
+}
+.s34{
+	-ibooks-list-text-indent: 0.0000pt;
+	color: #232323;
+	font-family: "HiraginoSansGB-W6";
+	font-size: 116.6667%;
+	font-weight: bold;
+	margin-bottom: 0.0000pt;
+}
+.s35{
+	-ibooks-line-spacing-mode: min;
+	-ibooks-list-text-indent: 0.0000pt;
+	font-family: "HiraginoSansGB-W6";
+	font-size: 250.0000%;
+	font-weight: bold;
+	line-height: 26.000000pt;
+	text-align: right;
+}
+.s36{
+	-ibooks-line-spacing-mode: min;
+	-ibooks-list-text-indent: 0.0000pt;
+	font-family: "HiraginoSansGB-W6";
+	font-size: 250.0000%;
+	font-weight: bold;
+	line-height: 26.000000pt;
+}
+.s37{
+	-ibooks-list-text-indent: 0.0000pt;
+	color: #929292;
+	font-family: "HiraginoSansGB-W3";
+	font-size: 116.6667%;
+	text-align: center;
+}
+.c1{
+	-ibooks-strikethru-type: none;
+	-ibooks-underline-type: none;
+	background: transparent;
+	color: #FFFFFF;
+	font-family: "HiraginoSansGB-W3";
+	font-size: 83.3333%;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	letter-spacing: 0.0000em;
+	text-shadow: none;
+	text-transform: none;
+	vertical-align: 0.0000pt;
+	text-decoration: none;
+}
+.c2{
+	-ibooks-underline-type: single;
+	color: #4066A9;
+	font-family: "Georgia";
+	text-decoration: underline;
+}
+#textShape-102{
+	-ibooks-box-wrap-exterior-path: directional contour both 12.0pt 0.000000 false;
+	-ibooks-line-hints: textShape-102 p url(../hints/content12-paginated.plist) 24 16;
+	display: block;
+	height: 508.000pt;
+	left: 0.000pt;
+	position: absolute;
+	top: 0.000pt;
+	width: 306.000pt;
+}
+#viewport-popup-91{
+	-ibooks-slot: viewport-popup-91;
+	display: block;
+}
+#viewport-popup-85-background{
+	-ibooks-box-wrap-exterior-path: directional rectangular both 12.0pt 0.500000 false;
+	display: block;
+	height: 110.000pt;
+	left: 0.000pt;
+	position: absolute;
+	top: 0.000pt;
+	width: 230.000pt;
+}
+#textShape-23-svg{
+	height: 20.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 50.000pt;
+}
+#viewport-popup-86-alt{
+	display: block;
+	height: 281.0pt;
+	left: -0.5pt;
+	top: -0.5pt;
+	visibility: hidden;
+	width: 301.0pt;
+}
+#textShape-184-svg{
+	height: 20.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 800.000pt;
+}
+#viewport-popup-59{
+	-ibooks-slot: viewport-popup-59;
+	display: block;
+}
+#image-383{
+	-ibooks-slot: image-383;
+	display: block;
+}
+#textShape-188-div{
+	height: 79.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 206.000pt;
+}
+#textShape-143-div{
+	height: 20.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 800.000pt;
+}
+#viewport-popup-59-background{
+	-ibooks-box-wrap-exterior-path: directional rectangular both 12.0pt 0.500000 false;
+	display: block;
+	height: 110.000pt;
+	left: 0.000pt;
+	position: absolute;
+	top: 0.000pt;
+	width: 230.000pt;
+}
+#textShape-177-svg{
+	height: 20.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 800.000pt;
+}
+#image-269{
+	-ibooks-slot: image-269;
+	display: block;
+}
+#textShape-113-svg{
+	height: 20.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 50.000pt;
+}
+#textShape-117-div{
+	height: 403.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 206.000pt;
+}
+#image-135{
+	height: 0.817pt;
+	width: 196.000pt;
+}
+#textShape-181-svg{
+	height: 79.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 206.000pt;
+}
+#image-357{
+	height: 1.000pt;
+	width: 240.000pt;
+}
+#image-334{
+	height: 0.817pt;
+	width: 196.000pt;
+}
+#textShape-185-div{
+	height: 70.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 200.000pt;
+}
+#textShape-121-div{
+	height: 79.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 206.000pt;
+}
+#textShape-23{
+	-ibooks-slot: textShape-23;
+	display: block;
+}
+#textShape-386-div{
+	height: 70.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 200.000pt;
+}
+#image-311{
+	height: 0.817pt;
+	width: 196.000pt;
+}
+#viewport-popup-83-alt{
+	display: block;
+	height: 251.0pt;
+	left: -0.5pt;
+	top: -0.5pt;
+	visibility: hidden;
+	width: 301.0pt;
+}
+#textShape-149{
+	-ibooks-box-wrap-exterior-path: directional contour both 12.0pt 0.000000 false;
+	-ibooks-line-hints: textShape-149 p url(../hints/content12-paginated.plist) 230 26;
+	display: block;
+	height: 403.000pt;
+	left: 0.000pt;
+	position: absolute;
+	top: 0.000pt;
+	width: 206.000pt;
+}
+#textShape-165{
+	-ibooks-box-wrap-exterior-path: directional contour both 12.0pt 0.000000 false;
+	-ibooks-line-hints: textShape-165 p url(../hints/content12-paginated.plist) 276 12;
+	display: block;
+	height: 400.000pt;
+	left: 0.000pt;
+	position: absolute;
+	top: 0.000pt;
+	width: 276.000pt;
+}
+#textShape-173{
+	-ibooks-box-wrap-exterior-path: directional contour both 12.0pt 0.000000 false;
+	-ibooks-line-hints: textShape-173 p url(../hints/content12-paginated.plist) 364 5;
+	display: block;
+	height: 79.000pt;
+	left: 0.000pt;
+	position: absolute;
+	top: 0.000pt;
+	width: 206.000pt;
+}
+#textShape-181{
+	-ibooks-box-wrap-exterior-path: directional contour both 12.0pt 0.000000 false;
+	-ibooks-line-hints: textShape-181 p url(../hints/content12-paginated.plist) 424 5;
+	display: block;
+	height: 79.000pt;
+	left: 0.000pt;
+	position: absolute;
+	top: 0.000pt;
+	width: 206.000pt;
+}
+#textShape-387{
+	-ibooks-box-wrap-exterior-path: directional contour both 12.0pt 0.000000 false;
+	-ibooks-line-hints: textShape-387 p url(../hints/content12-paginated.plist) 602 26;
+	display: block;
+	height: 403.000pt;
+	left: 0.000pt;
+	position: absolute;
+	top: 0.000pt;
+	width: 206.000pt;
+}
+#textShape-114-div{
+	height: 20.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 800.000pt;
+}
+#textShape-927{
+	-ibooks-slot: textShape-927;
+	display: block;
+}
+#image-308{
+	height: 1.000pt;
+	width: 240.000pt;
+}
+#image-293{
+	height: 0.817pt;
+	width: 196.000pt;
+}
+#textShape-104{
+	-ibooks-box-wrap-exterior-path: directional contour both 12.0pt 0.000000 false;
+	-ibooks-line-hints: textShape-104 p url(../hints/content12-paginated.plist) 80 5;
+	display: block;
+	height: 79.000pt;
+	left: 0.000pt;
+	position: absolute;
+	top: 0.000pt;
+	width: 206.000pt;
+}
+#viewport-popup-108{
+	-ibooks-slot: viewport-popup-108;
+	display: block;
+}
+#textShape-182-div{
+	height: 332.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 276.000pt;
+}
+#image-270{
+	height: 1.000pt;
+	width: 240.000pt;
+}
+#image-381{
+	height: 1.000pt;
+	width: 240.000pt;
+}
+#textShape-129-svg{
+	height: 20.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 50.000pt;
+}
+#viewport-popup-98{
+	-ibooks-slot: viewport-popup-98;
+	display: block;
+}
+#viewport-popup-102{
+	-ibooks-slot: viewport-popup-102;
+	display: block;
+}
+#textShape-372-svg{
+	height: 79.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 206.000pt;
+}
+#viewport-popup-84{
+	-ibooks-slot: viewport-popup-84;
+	display: block;
+}
+#image-267{
+	height: 1.000pt;
+	width: 240.000pt;
+}
+#viewport-popup-121{
+	-ibooks-slot: viewport-popup-121;
+	display: block;
+}
+#textShape-81-div{
+	height: 115.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 800.000pt;
+}
+#viewport-popup-68{
+	-ibooks-slot: viewport-popup-68;
+	display: block;
+}
+#image-133{
+	-ibooks-slot: image-133;
+	display: block;
+}
+#image-355{
+	height: 1.000pt;
+	width: 240.000pt;
+}
+#image-332{
+	height: 1.000pt;
+	width: 240.000pt;
+}
+#textShape-91{
+	-ibooks-slot: textShape-91;
+	display: block;
+	transform: matrix(-1,-0,0,1,0,0);
+}
+#viewport-popup-104-background{
+	-ibooks-box-wrap-exterior-path: directional rectangular both 12.0pt 0.500000 false;
+	display: block;
+	height: 110.000pt;
+	left: 0.000pt;
+	position: absolute;
+	top: 0.000pt;
+	width: 230.000pt;
+}
+#textShape-204-svg{
+	height: 291.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 276.000pt;
+}
+#textShape-208-div{
+	height: 20.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 100.000pt;
+}
+#viewport-popup-90-alt{
+	display: block;
+	height: 431.0pt;
+	left: -0.5pt;
+	top: -0.5pt;
+	visibility: hidden;
+	width: 231.0pt;
+}
+#textShape-198-div{
+	height: 413.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 276.000pt;
+}
+#image-329{
+	height: 0.817pt;
+	width: 196.000pt;
+}
+#image-306{
+	-ibooks-slot: image-306;
+	display: block;
+}
+#image-291{
+	height: 1.000pt;
+	width: 240.000pt;
+}
+#viewport-popup-112-background{
+	-ibooks-box-wrap-exterior-path: directional rectangular both 12.0pt 0.500000 false;
+	display: block;
+	height: 340.000pt;
+	left: 0.000pt;
+	position: absolute;
+	top: 0.000pt;
+	width: 230.000pt;
+}
+#textShape-22-div{
+	height: 20.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 800.000pt;
+}
+#textShape-168-svg{
+	height: 20.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 800.000pt;
+}
+#textShape-123-svg{
+	height: 20.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 800.000pt;
+}
+#textShape-187-svg{
+	height: 403.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 206.000pt;
+}
+#viewport-popup-107-background{
+	-ibooks-box-wrap-exterior-path: directional rectangular both 12.0pt 0.500000 false;
+	display: block;
+	height: 430.000pt;
+	left: 0.000pt;
+	position: absolute;
+	top: 0.000pt;
+	width: 230.000pt;
+}
+#textShape-201-svg{
+	height: 70.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 200.000pt;
+}
+#textShape-388-svg{
+	height: 79.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 206.000pt;
+}
+#textShape-167{
+	-ibooks-slot: textShape-167;
+	display: block;
+}
+#textShape-127-div{
+	height: 66.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 206.000pt;
+}
+#textShape-183{
+	-ibooks-slot: textShape-183;
+	display: block;
+}
+#textShape-389{
+	-ibooks-slot: textShape-389;
+	display: block;
+}
+#textShape-92-div{
+	height: 20.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 50.000pt;
+}
+#image-288{
+	height: 0.817pt;
+	width: 196.000pt;
+}
+#image-399{
+	-ibooks-slot: image-399;
+	display: block;
+}
+#textShape-195-div{
+	height: 403.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 206.000pt;
+}
+#textShape-150-div{
+	height: 79.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 206.000pt;
+}
+#group-22-gen{
+	-ibooks-slot: group-22-gen;
+	display: block;
+}
+#textShape-122{
+	-ibooks-slot: textShape-122;
+	display: block;
+}
+#image-265{
+	height: 0.817pt;
+	width: 196.000pt;
+}
+#textShape-130{
+	-ibooks-slot: textShape-130;
+	display: block;
+}
+#textShape-114{
+	-ibooks-slot: textShape-114;
+	display: block;
+}
+#image-131{
+	-ibooks-slot: image-131;
+	display: block;
+}
+#textShape-165-svg{
+	height: 400.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 276.000pt;
+}
+#image-353{
+	height: 1.000pt;
+	width: 240.000pt;
+}
+#viewport-popup-115-background{
+	-ibooks-box-wrap-exterior-path: directional rectangular both 12.0pt 0.500000 false;
+	display: block;
+	height: 440.000pt;
+	left: 0.000pt;
+	position: absolute;
+	top: 0.000pt;
+	width: 300.000pt;
+}
+#viewport-popup-118{
+	-ibooks-slot: viewport-popup-118;
+	display: block;
+}
+#textShape-385-svg{
+	height: 20.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 800.000pt;
+}
+#textShape-169-div{
+	height: 70.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 200.000pt;
+}
+#textShape-124-div{
+	height: 70.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 200.000pt;
+}
+#image-330{
+	height: 1.000pt;
+	width: 240.000pt;
+}
+#viewport-popup-84-background{
+	-ibooks-box-wrap-exterior-path: directional rectangular both 12.0pt 0.500000 false;
+	display: block;
+	height: 340.000pt;
+	left: 0.000pt;
+	position: absolute;
+	top: 0.000pt;
+	width: 230.000pt;
+}
+#textShape-202-div{
+	height: 403.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 206.000pt;
+}
+#textShape-389-div{
+	height: 20.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 50.000pt;
+}
+#viewport-popup-93{
+	-ibooks-slot: viewport-popup-93;
+	display: block;
+}
+#image-128{
+	height: 1.000pt;
+	width: 240.000pt;
+}
+#viewport-popup-96-alt{
+	display: block;
+	height: 341.0pt;
+	left: -0.5pt;
+	top: -0.5pt;
+	visibility: hidden;
+	width: 231.0pt;
+}
+#textShape-192-div{
+	height: 20.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 50.000pt;
+}
+#viewport-popup-112{
+	-ibooks-slot: viewport-popup-112;
+	display: block;
+}
+#textShape-139-svg{
+	height: 210.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 276.000pt;
+}
+#image-327{
+	-ibooks-slot: image-327;
+	display: block;
+}
+#textShape-78{
+	-ibooks-slot: textShape-78;
+	display: block;
+}
+#textShape-162-svg{
+	height: 70.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 200.000pt;
+}
+#image-304{
+	-ibooks-slot: image-304;
+	display: block;
+}
+#textShape-95{
+	-ibooks-slot: textShape-95;
+	display: block;
+}
+#viewport-popup-83-background{
+	-ibooks-box-wrap-exterior-path: directional rectangular both 12.0pt 0.500000 false;
+	display: block;
+	height: 250.000pt;
+	left: 0.000pt;
+	position: absolute;
+	top: 0.000pt;
+	width: 300.000pt;
+}
+#viewport-popup-118-background{
+	-ibooks-box-wrap-exterior-path: directional rectangular both 12.0pt 0.500000 false;
+	display: block;
+	height: 330.000pt;
+	left: 0.000pt;
+	position: absolute;
+	top: 0.000pt;
+	width: 300.000pt;
+}
+#image-415{
+	-ibooks-slot: image-415;
+	display: block;
+}
+#textShape-166-div{
+	height: 332.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 276.000pt;
+}
+#textShape-79-div{
+	height: 70.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 800.000pt;
+}
+#textShape-102-div{
+	height: 508.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 306.000pt;
+}
+#viewport-popup-68-alt{
+	display: block;
+	height: 111.0pt;
+	left: -0.5pt;
+	top: -0.5pt;
+	visibility: hidden;
+	width: 231.0pt;
+}
+#image-286{
+	-ibooks-slot: image-286;
+	display: block;
+}
+#image-397{
+	-ibooks-slot: image-397;
+	display: block;
+}
+#textShape-390-div{
+	height: 20.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 800.000pt;
+}
+#viewport-popup-79-background{
+	-ibooks-box-wrap-exterior-path: directional rectangular both 12.0pt 0.500000 false;
+	display: block;
+	height: 340.000pt;
+	left: 0.000pt;
+	position: absolute;
+	top: 0.000pt;
+	width: 230.000pt;
+}
+#image-263{
+	-ibooks-slot: image-263;
+	display: block;
+}
+#viewport-popup-82-background{
+	-ibooks-box-wrap-exterior-path: directional rectangular both 12.0pt 0.500000 false;
+	display: block;
+	height: 110.000pt;
+	left: 0.000pt;
+	position: absolute;
+	top: 0.000pt;
+	width: 230.000pt;
+}
+#viewport-popup-57-background{
+	-ibooks-box-wrap-exterior-path: directional rectangular both 12.0pt 0.500000 false;
+	display: block;
+	height: 537.000pt;
+	left: 0.000pt;
+	position: absolute;
+	top: 0.000pt;
+	width: 330.000pt;
+}
+#textShape-169{
+	-ibooks-slot: textShape-169;
+	display: block;
+}
+#textShape-177{
+	-ibooks-slot: textShape-177;
+	display: block;
+}
+#viewport-popup-93-alt{
+	display: block;
+	height: 441.0pt;
+	left: -0.5pt;
+	top: -0.5pt;
+	visibility: hidden;
+	width: 301.0pt;
+}
+#textShape-163-div{
+	height: 70.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 200.000pt;
+}
+#textShape-185{
+	-ibooks-slot: textShape-185;
+	display: block;
+}
+#image-351{
+	height: 0.817pt;
+	width: 196.000pt;
+}
+#textShape-193{
+	-ibooks-slot: textShape-193;
+	display: block;
+}
+#image-149{
+	height: 0.817pt;
+	width: 196.000pt;
+}
+#textShape-82{
+	display: block;
+	height: 250.000pt;
+	left: 0.000pt;
+	position: absolute;
+	top: 0.000pt;
+	width: 400.000pt;
+}
+#textShape-124{
+	-ibooks-slot: textShape-124;
+	display: block;
+}
+#textShape-132{
+	-ibooks-box-wrap-exterior-path: directional contour both 12.0pt 0.000000 false;
+	-ibooks-line-hints: textShape-132 p url(../hints/content12-paginated.plist) 40 6;
+	display: block;
+	height: 210.000pt;
+	left: 0.000pt;
+	position: absolute;
+	top: 0.000pt;
+	width: 276.000pt;
+}
+#textShape-197-svg{
+	height: 79.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 206.000pt;
+}
+#textShape-133-svg{
+	height: 403.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 206.000pt;
+}
+#viewport-popup-81-background{
+	-ibooks-box-wrap-exterior-path: directional rectangular both 12.0pt 0.500000 false;
+	display: block;
+	height: 100.000pt;
+	left: 0.000pt;
+	position: absolute;
+	top: 0.000pt;
+	width: 230.000pt;
+}
+#image-126{
+	height: 1.000pt;
+	width: 240.000pt;
+}
+#image-348{
+	height: 1.000pt;
+	width: 240.000pt;
+}
+#textShape-137-div{
+	height: 70.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 200.000pt;
+}
+#image-68{
+	-ibooks-slot: image-68;
+	display: block;
+}
+#textShape-78-svg{
+	height: 20.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 800.000pt;
+}
+#image-24{
+	-ibooks-slot: image-24;
+	display: block;
+}
+#image-35{
+	-ibooks-slot: image-35;
+	display: block;
+}
+#image-302{
+	-ibooks-slot: image-302;
+	display: block;
+}
+#viewport-popup-65-alt{
+	display: block;
+	height: 221.0pt;
+	left: -0.5pt;
+	top: -0.5pt;
+	visibility: hidden;
+	width: 301.0pt;
+}
+#image-413{
+	-ibooks-slot: image-413;
+	display: block;
+}
+#textShape-194-svg{
+	height: 70.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 200.000pt;
+}
+#textShape-130-svg{
+	height: 20.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 800.000pt;
+}
+#viewport-popup-103{
+	-ibooks-slot: viewport-popup-103;
+	display: block;
+}
+#image-173{
+	-ibooks-slot: image-173;
+	display: block;
+}
+#viewport-popup-86{
+	-ibooks-slot: viewport-popup-86;
+	display: block;
+}
+#textShape-179-div{
+	height: 403.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 206.000pt;
+}
+#textShape-134-div{
+	height: 79.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 206.000pt;
+}
+#image-395{
+	-ibooks-slot: image-395;
+	display: block;
+}
+#textShape-99{
+	-ibooks-slot: textShape-99;
+	display: block;
+}
+#viewport-popup-122{
+	-ibooks-slot: viewport-popup-122;
+	display: block;
+}
+#image-261{
+	-ibooks-slot: image-261;
+	display: block;
+}
+#image-372{
+	height: 1.000pt;
+	width: 240.000pt;
+}
+#viewport-popup-99-alt{
+	display: block;
+	height: 111.0pt;
+	left: -0.5pt;
+	top: -0.5pt;
+	visibility: hidden;
+	width: 231.0pt;
+}
+#textShape-149-svg{
+	height: 403.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 206.000pt;
+}
+#textShape-104-svg{
+	height: 79.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 206.000pt;
+}
+#textShape-172-svg{
+	height: 403.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 206.000pt;
+}
+#image-147{
+	height: 0.817pt;
+	width: 196.000pt;
+}
+#image-258{
+	-ibooks-slot: image-258;
+	display: block;
+}
+#textShape-927-svg{
+	height: 100.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 100.000pt;
+}
+#image-369{
+	height: 1.000pt;
+	width: 240.000pt;
+}
+#textShape-176-div{
+	height: 20.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 50.000pt;
+}
+#textShape-131-div{
+	height: 70.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 200.000pt;
+}
+#image-346{
+	-ibooks-slot: image-346;
+	display: block;
+}
+#textShape-22{
+	-ibooks-slot: textShape-22;
+	display: block;
+}
+#textShape-179{
+	-ibooks-box-wrap-exterior-path: directional contour both 12.0pt 0.000000 false;
+	-ibooks-line-hints: textShape-179 p url(../hints/content12-paginated.plist) 372 26;
+	display: block;
+	height: 403.000pt;
+	left: 0.000pt;
+	position: absolute;
+	top: 0.000pt;
+	width: 206.000pt;
+}
+#textShape-187{
+	-ibooks-box-wrap-exterior-path: directional contour both 12.0pt 0.000000 false;
+	-ibooks-line-hints: textShape-187 p url(../hints/content12-paginated.plist) 476 26;
+	display: block;
+	height: 403.000pt;
+	left: 0.000pt;
+	position: absolute;
+	top: 0.000pt;
+	width: 206.000pt;
+}
+#textShape-195{
+	-ibooks-box-wrap-exterior-path: directional contour both 12.0pt 0.000000 false;
+	-ibooks-line-hints: textShape-195 p url(../hints/content12-paginated.plist) 523 26;
+	display: block;
+	height: 403.000pt;
+	left: 0.000pt;
+	position: absolute;
+	top: 0.000pt;
+	width: 206.000pt;
+}
+#image-323{
+	-ibooks-slot: image-323;
+	display: block;
+}
+#image-20{
+	-ibooks-slot: image-20;
+	display: block;
+}
+#textShape-101-svg{
+	height: 138.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 260.000pt;
+}
+#image-300{
+	-ibooks-slot: image-300;
+	display: block;
+}
+#textShape-118{
+	-ibooks-box-wrap-exterior-path: directional contour both 12.0pt 0.000000 false;
+	-ibooks-line-hints: textShape-118 p url(../hints/content12-paginated.plist) 121 4;
+	display: block;
+	height: 142.000pt;
+	left: 0.000pt;
+	position: absolute;
+	top: 0.000pt;
+	width: 276.000pt;
+}
+#image-411{
+	height: 0.817pt;
+	width: 196.000pt;
+}
+#textShape-134{
+	-ibooks-box-wrap-exterior-path: directional contour both 12.0pt 0.000000 false;
+	-ibooks-line-hints: textShape-134 p url(../hints/content12-paginated.plist) 72 5;
+	display: block;
+	height: 79.000pt;
+	left: 0.000pt;
+	position: absolute;
+	top: 0.000pt;
+	width: 206.000pt;
+}
+#textShape-150{
+	-ibooks-box-wrap-exterior-path: directional contour both 12.0pt 0.000000 false;
+	-ibooks-line-hints: textShape-150 p url(../hints/content12-paginated.plist) 256 5;
+	display: block;
+	height: 79.000pt;
+	left: 0.000pt;
+	position: absolute;
+	top: 0.000pt;
+	width: 206.000pt;
+}
+#textShape-372{
+	-ibooks-box-wrap-exterior-path: directional contour both 12.0pt 0.000000 false;
+	-ibooks-line-hints: textShape-372 p url(../hints/content12-paginated.plist) 594 5;
+	display: block;
+	height: 79.000pt;
+	left: 0.000pt;
+	position: absolute;
+	top: 0.000pt;
+	width: 206.000pt;
+}
+#textShape-173-div{
+	height: 79.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 206.000pt;
+}
+#textShape-200{
+	-ibooks-slot: textShape-200;
+	display: block;
+}
+#image-282{
+	height: 0.817pt;
+	width: 196.000pt;
+}
+#textShape-25-div{
+	height: 10.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 50.000pt;
+}
+#image-408{
+	height: 0.817pt;
+	width: 196.000pt;
+}
+#viewport-popup-82-alt{
+	display: block;
+	height: 111.0pt;
+	left: -0.5pt;
+	top: -0.5pt;
+	visibility: hidden;
+	width: 231.0pt;
+}
+#image-370{
+	height: 0.817pt;
+	width: 196.000pt;
+}
+#textShape-143-svg{
+	height: 20.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 800.000pt;
+}
+#viewport-popup-119{
+	-ibooks-slot: viewport-popup-119;
+	display: block;
+}
+#image-279{
+	height: 0.817pt;
+	width: 196.000pt;
+}
+#image-256{
+	-ibooks-slot: image-256;
+	display: block;
+}
+#textShape-170-div{
+	height: 403.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 206.000pt;
+}
+#viewport-popup-95{
+	-ibooks-slot: viewport-popup-95;
+	display: block;
+}
+#image-145{
+	-ibooks-slot: image-145;
+	display: block;
+}
+#image-367{
+	-ibooks-slot: image-367;
+	display: block;
+}
+#textShape-117-svg{
+	height: 403.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 206.000pt;
+}
+#textShape-90{
+	display: block;
+	height: 195.000pt;
+	left: 82.000pt;
+	position: absolute;
+	top: 50.000pt;
+	width: 236.000pt;
+}
+#image-344{
+	-ibooks-slot: image-344;
+	display: block;
+}
+#viewport-popup-79{
+	-ibooks-slot: viewport-popup-79;
+	display: block;
+}
+#viewport-popup-81{
+	-ibooks-slot: viewport-popup-81;
+	display: block;
+}
+#image-321{
+	height: 0.817pt;
+	width: 196.000pt;
+}
+#textShape-185-svg{
+	height: 70.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 200.000pt;
+}
+#textShape-144-div{
+	height: 70.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 200.000pt;
+}
+#viewport-popup-65{
+	-ibooks-slot: viewport-popup-65;
+	display: block;
+}
+#viewport-popup-119-alt{
+	display: block;
+	height: 111.0pt;
+	left: -0.5pt;
+	top: -0.5pt;
+	visibility: hidden;
+	width: 231.0pt;
+}
+#viewport-popup-100-background{
+	-ibooks-box-wrap-exterior-path: directional rectangular both 12.0pt 0.500000 false;
+	display: block;
+	height: 400.000pt;
+	left: 0.000pt;
+	position: absolute;
+	top: 0.000pt;
+	width: 300.000pt;
+}
+#image-318{
+	height: 1.000pt;
+	width: 240.000pt;
+}
+#textShape-178-svg{
+	height: 70.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 200.000pt;
+}
+#textShape-26{
+	-ibooks-slot: textShape-26;
+	display: block;
+}
+#textShape-114-svg{
+	height: 20.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 800.000pt;
+}
+#textShape-197{
+	-ibooks-box-wrap-exterior-path: directional contour both 12.0pt 0.000000 false;
+	-ibooks-line-hints: textShape-197 p url(../hints/content12-paginated.plist) 549 5;
+	display: block;
+	height: 79.000pt;
+	left: 0.000pt;
+	position: absolute;
+	top: 0.000pt;
+	width: 206.000pt;
+}
+#image-406{
+	height: 1.000pt;
+	width: 240.000pt;
+}
+#image-280{
+	height: 1.000pt;
+	width: 240.000pt;
+}
+#viewport-popup-88-alt{
+	display: block;
+	height: 341.0pt;
+	left: -0.5pt;
+	top: -0.5pt;
+	visibility: hidden;
+	width: 231.0pt;
+}
+#textShape-118-div{
+	height: 142.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 276.000pt;
+}
+#textShape-182-svg{
+	height: 332.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 276.000pt;
+}
+#viewport-popup-108-alt{
+	display: block;
+	height: 111.0pt;
+	left: -0.5pt;
+	top: -0.5pt;
+	visibility: hidden;
+	width: 231.0pt;
+}
+#textShape-128{
+	-ibooks-box-wrap-exterior-path: directional contour both 12.0pt 0.000000 false;
+	-ibooks-line-hints: textShape-128 p url(../hints/content12-paginated.plist) 188 5;
+	display: block;
+	height: 79.000pt;
+	left: 0.000pt;
+	position: absolute;
+	top: 0.000pt;
+	width: 206.000pt;
+}
+#image-391{
+	height: 0.817pt;
+	width: 196.000pt;
+}
+#textShape-144{
+	-ibooks-slot: textShape-144;
+	display: block;
+}
+#textShape-186-div{
+	height: 403.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 206.000pt;
+}
+#textShape-141-div{
+	height: 20.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 50.000pt;
+}
+#viewport-popup-118-alt{
+	display: block;
+	height: 331.0pt;
+	left: -0.5pt;
+	top: -0.5pt;
+	visibility: hidden;
+	width: 301.0pt;
+}
+#viewport-popup-99-background{
+	-ibooks-box-wrap-exterior-path: directional rectangular both 12.0pt 0.500000 false;
+	display: block;
+	height: 110.000pt;
+	left: 0.000pt;
+	position: absolute;
+	top: 0.000pt;
+	width: 230.000pt;
+}
+#textShape-200-div{
+	height: 20.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 800.000pt;
+}
+#textShape-387-div{
+	height: 403.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 206.000pt;
+}
+#viewport-popup-122-alt{
+	display: block;
+	height: 111.0pt;
+	left: -0.5pt;
+	top: -0.5pt;
+	visibility: hidden;
+	width: 231.0pt;
+}
+#image-277{
+	-ibooks-slot: image-277;
+	display: block;
+}
+#image-388{
+	height: 0.817pt;
+	width: 196.000pt;
+}
+#textShape-390{
+	-ibooks-slot: textShape-390;
+	display: block;
+}
+#viewport-popup-103-background{
+	-ibooks-box-wrap-exterior-path: directional rectangular both 12.0pt 0.500000 false;
+	display: block;
+	height: 430.000pt;
+	left: 0.000pt;
+	position: absolute;
+	top: 0.000pt;
+	width: 230.000pt;
+}
+#textShape-202{
+	-ibooks-box-wrap-exterior-path: directional contour both 12.0pt 0.000000 false;
+	-ibooks-line-hints: textShape-202 p url(../hints/content12-paginated.plist) 559 26;
+	display: block;
+	height: 403.000pt;
+	left: 0.000pt;
+	position: absolute;
+	top: 0.000pt;
+	width: 206.000pt;
+}
+#image-143{
+	-ibooks-slot: image-143;
+	display: block;
+}
+#image-365{
+	-ibooks-slot: image-365;
+	display: block;
+}
+#viewport-popup-107-alt{
+	display: block;
+	height: 431.0pt;
+	left: -0.5pt;
+	top: -0.5pt;
+	visibility: hidden;
+	width: 231.0pt;
+}
+#textShape-115-div{
+	height: 70.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 200.000pt;
+}
+#image-342{
+	-ibooks-slot: image-342;
+	display: block;
+}
+#viewport-popup-98-background{
+	-ibooks-box-wrap-exterior-path: directional rectangular both 12.0pt 0.500000 false;
+	display: block;
+	height: 430.000pt;
+	left: 0.000pt;
+	position: absolute;
+	top: 0.000pt;
+	width: 230.000pt;
+}
+#viewport-popup-121-alt{
+	display: block;
+	height: 341.0pt;
+	left: -0.5pt;
+	top: -0.5pt;
+	visibility: hidden;
+	width: 231.0pt;
+}
+#textShape-183-div{
+	height: 20.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 50.000pt;
+}
+#textShape-384-div{
+	height: 20.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 50.000pt;
+}
+#textShape-208-svg{
+	height: 20.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 100.000pt;
+}
+#image-339{
+	-ibooks-slot: image-339;
+	display: block;
+}
+#textShape-77{
+	-ibooks-slot: textShape-77;
+	display: block;
+}
+#viewport-popup-85-alt{
+	display: block;
+	height: 111.0pt;
+	left: -0.5pt;
+	top: -0.5pt;
+	visibility: hidden;
+	width: 231.0pt;
+}
+#viewport-popup-106-alt{
+	display: block;
+	height: 341.0pt;
+	left: -0.5pt;
+	top: -0.5pt;
+	visibility: hidden;
+	width: 231.0pt;
+}
+#textShape-94{
+	-ibooks-slot: textShape-94;
+	display: block;
+}
+#image-316{
+	height: 0.817pt;
+	width: 196.000pt;
+}
+#viewport-popup-104{
+	-ibooks-slot: viewport-popup-104;
+	display: block;
+}
+#viewport-popup-116-alt{
+	display: block;
+	height: 341.0pt;
+	left: -0.5pt;
+	top: -0.5pt;
+	visibility: hidden;
+	width: 231.0pt;
+}
+#viewport-popup-88{
+	-ibooks-slot: viewport-popup-88;
+	display: block;
+}
+#image-18{
+	display: block;
+	height: 61.120pt;
+	left: 168.000pt;
+	position: absolute;
+	top: 117.000pt;
+	width: 64.000pt;
+}
+#viewport-popup-90{
+	-ibooks-slot: viewport-popup-90;
+	display: block;
+}
+#image-404{
+	-ibooks-slot: image-404;
+	display: block;
+}
+#textShape-180-div{
+	height: 403.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 206.000pt;
+}
+#textShape-127-svg{
+	height: 66.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 206.000pt;
+}
+#image-298{
+	-ibooks-slot: image-298;
+	display: block;
+}
+#viewport-popup-114-background{
+	-ibooks-box-wrap-exterior-path: directional rectangular both 12.0pt 0.500000 false;
+	display: block;
+	height: 110.000pt;
+	left: 0.000pt;
+	position: absolute;
+	top: 0.000pt;
+	width: 230.000pt;
+}
+#viewport-popup-105-alt{
+	display: block;
+	height: 371.0pt;
+	left: -0.5pt;
+	top: -0.5pt;
+	visibility: hidden;
+	width: 301.0pt;
+}
+#textShape-199{
+	-ibooks-slot: textShape-199;
+	display: block;
+}
+#image-275{
+	height: 9.000pt;
+	width: 8.000pt;
+}
+#textShape-150-svg{
+	height: 79.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 206.000pt;
+}
+#viewport-popup-57-alt{
+	display: block;
+	height: 538.0pt;
+	left: -0.5pt;
+	top: -0.5pt;
+	visibility: hidden;
+	width: 331.0pt;
+}
+#image-386{
+	-ibooks-slot: image-386;
+	display: block;
+}
+#viewport-popup-115-alt{
+	display: block;
+	height: 441.0pt;
+	left: -0.5pt;
+	top: -0.5pt;
+	visibility: hidden;
+	width: 301.0pt;
+}
+#textShape-199-div{
+	height: 20.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 50.000pt;
+}
+#image-363{
+	-ibooks-slot: image-363;
+	display: block;
+}
+#textShape-138{
+	-ibooks-box-wrap-exterior-path: directional contour both 12.0pt 0.000000 false;
+	-ibooks-line-hints: textShape-138 p url(../hints/content12-paginated.plist) 85 7;
+	display: block;
+	height: 237.000pt;
+	left: 0.000pt;
+	position: absolute;
+	top: 0.000pt;
+	width: 276.000pt;
+}
+#textShape-162{
+	-ibooks-slot: textShape-162;
+	display: block;
+}
+#textShape-81{
+	-ibooks-slot: textShape-81;
+	display: block;
+}
+#textShape-170{
+	-ibooks-box-wrap-exterior-path: directional contour both 12.0pt 0.000000 false;
+	-ibooks-line-hints: textShape-170 p url(../hints/content12-paginated.plist) 312 26;
+	display: block;
+	height: 403.000pt;
+	left: 0.000pt;
+	position: absolute;
+	top: 0.000pt;
+	width: 206.000pt;
+}
+#image-340{
+	height: 1.000pt;
+	width: 240.000pt;
+}
+#textShape-384{
+	-ibooks-slot: textShape-384;
+	display: block;
+}
+#textShape-188-svg{
+	height: 79.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 206.000pt;
+}
+#textShape-124-svg{
+	height: 70.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 200.000pt;
+}
+#viewport-popup-104-alt{
+	display: block;
+	height: 111.0pt;
+	left: -0.5pt;
+	top: -0.5pt;
+	visibility: hidden;
+	width: 231.0pt;
+}
+#textShape-202-svg{
+	height: 403.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 206.000pt;
+}
+#image-138{
+	height: 0.817pt;
+	width: 196.000pt;
+}
+#textShape-101{
+	-ibooks-slot: textShape-101;
+	display: block;
+}
+#textShape-204{
+	-ibooks-box-wrap-exterior-path: directional contour both 12.0pt 0.000000 false;
+	-ibooks-line-hints: textShape-204 p url(../hints/content12-paginated.plist) 585 9;
+	display: block;
+	height: 291.000pt;
+	left: 0.000pt;
+	position: absolute;
+	top: 0.000pt;
+	width: 276.000pt;
+}
+#textShape-128-div{
+	height: 79.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 206.000pt;
+}
+#viewport-popup-122-background{
+	-ibooks-box-wrap-exterior-path: directional rectangular both 12.0pt 0.500000 false;
+	display: block;
+	height: 110.000pt;
+	left: 0.000pt;
+	position: absolute;
+	top: 0.000pt;
+	width: 230.000pt;
+}
+#textShape-192-svg{
+	height: 20.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 50.000pt;
+}
+#viewport-popup-114-alt{
+	display: block;
+	height: 111.0pt;
+	left: -0.5pt;
+	top: -0.5pt;
+	visibility: hidden;
+	width: 231.0pt;
+}
+#image-337{
+	height: 0.817pt;
+	width: 196.000pt;
+}
+#textShape-389-svg{
+	height: 20.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 50.000pt;
+}
+#viewport-popup-92-alt{
+	display: block;
+	height: 101.0pt;
+	left: -0.5pt;
+	top: -0.5pt;
+	visibility: hidden;
+	width: 231.0pt;
+}
+#image-314{
+	-ibooks-slot: image-314;
+	display: block;
+}
+#image-36{
+	height: 1.000pt;
+	width: 240.000pt;
+}
+#textShape-23-div{
+	height: 20.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 50.000pt;
+}
+#viewport-popup-103-alt{
+	display: block;
+	height: 431.0pt;
+	left: -0.5pt;
+	top: -0.5pt;
+	visibility: hidden;
+	width: 231.0pt;
+}
+#textShape-166-svg{
+	height: 332.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 276.000pt;
+}
+#textShape-121-svg{
+	height: 79.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 206.000pt;
+}
+#textShape-386-svg{
+	height: 70.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 200.000pt;
+}
+#textShape-125-div{
+	height: 403.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 206.000pt;
+}
+#image-296{
+	-ibooks-slot: image-296;
+	display: block;
+}
+#textShape-93-div{
+	height: 20.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 800.000pt;
+}
+#textShape-98{
+	-ibooks-slot: textShape-98;
+	display: block;
+	transform: matrix(-1,-0,-0,-1,0,0);
+}
+#textShape-77-div{
+	height: 20.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 50.000pt;
+}
+#textShape-81-svg{
+	height: 115.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 800.000pt;
+}
+#image-162{
+	height: 0.817pt;
+	width: 196.000pt;
+}
+#textShape-193-div{
+	height: 20.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 800.000pt;
+}
+#image-384{
+	-ibooks-slot: image-384;
+	display: block;
+}
+#viewport-popup-64-alt{
+	display: block;
+	height: 341.0pt;
+	left: -0.5pt;
+	top: -0.5pt;
+	visibility: hidden;
+	width: 231.0pt;
+}
+#image-250{
+	-ibooks-slot: image-250;
+	display: block;
+}
+#viewport-popup-102-alt{
+	display: block;
+	height: 341.0pt;
+	left: -0.5pt;
+	top: -0.5pt;
+	visibility: hidden;
+	width: 231.0pt;
+}
+#viewport-popup-114{
+	-ibooks-slot: viewport-popup-114;
+	display: block;
+}
+#textShape-163-svg{
+	height: 70.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 200.000pt;
+}
+#viewport-popup-112-alt{
+	display: block;
+	height: 341.0pt;
+	left: -0.5pt;
+	top: -0.5pt;
+	visibility: hidden;
+	width: 231.0pt;
+}
+#viewport-popup-83{
+	-ibooks-slot: viewport-popup-83;
+	display: block;
+}
+#textShape-167-div{
+	height: 20.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 50.000pt;
+}
+#textShape-122-div{
+	height: 20.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 50.000pt;
+}
+#textShape-103-div{
+	height: 70.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 200.000pt;
+}
+#image-136{
+	height: 1.000pt;
+	width: 240.000pt;
+}
+#image-358{
+	-ibooks-slot: image-358;
+	display: block;
+}
+#frame-9{
+	-ibooks-slot: frame-9;
+	display: block;
+}
+#viewport-popup-98-alt{
+	display: block;
+	height: 431.0pt;
+	left: -0.5pt;
+	top: -0.5pt;
+	visibility: hidden;
+	width: 231.0pt;
+}
+#image-335{
+	height: 1.000pt;
+	width: 240.000pt;
+}
+#textShape-190-div{
+	height: 264.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 276.000pt;
+}
+#textShape-391-div{
+	height: 70.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 200.000pt;
+}
+#textShape-164{
+	-ibooks-box-wrap-exterior-path: directional contour both 12.0pt 0.000000 false;
+	-ibooks-line-hints: textShape-164 p url(../hints/content12-paginated.plist) 264 12;
+	display: block;
+	height: 400.000pt;
+	left: 0.000pt;
+	position: absolute;
+	top: 0.000pt;
+	width: 276.000pt;
+}
+#textShape-172{
+	-ibooks-box-wrap-exterior-path: directional contour both 12.0pt 0.000000 false;
+	-ibooks-line-hints: textShape-172 p url(../hints/content12-paginated.plist) 338 26;
+	display: block;
+	height: 403.000pt;
+	left: 0.000pt;
+	position: absolute;
+	top: 0.000pt;
+	width: 206.000pt;
+}
+#textShape-180{
+	-ibooks-box-wrap-exterior-path: directional contour both 12.0pt 0.000000 false;
+	-ibooks-line-hints: textShape-180 p url(../hints/content12-paginated.plist) 398 26;
+	display: block;
+	height: 403.000pt;
+	left: 0.000pt;
+	position: absolute;
+	top: 0.000pt;
+	width: 206.000pt;
+}
+#textShape-137-svg{
+	height: 70.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 200.000pt;
+}
+#image-21{
+	-ibooks-slot: image-21;
+	display: block;
+}
+#image-32{
+	-ibooks-slot: image-32;
+	display: block;
+}
+#textShape-386{
+	-ibooks-slot: textShape-386;
+	display: block;
+}
+#textShape-103{
+	-ibooks-slot: textShape-103;
+	display: block;
+}
+#textShape-96-div{
+	height: 50.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 150.000pt;
+}
+#image-400{
+	-ibooks-slot: image-400;
+	display: block;
+}
+#textShape-92-svg{
+	height: 20.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 50.000pt;
+}
+#textShape-164-div{
+	height: 400.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 276.000pt;
+}
+#textShape-100-div{
+	height: 50.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 150.000pt;
+}
+#image-309{
+	height: 0.817pt;
+	width: 196.000pt;
+}
+#viewport-popup-100-alt{
+	display: block;
+	height: 401.0pt;
+	left: -0.5pt;
+	top: -0.5pt;
+	visibility: hidden;
+	width: 301.0pt;
+}
+#viewport-popup-106-background{
+	-ibooks-box-wrap-exterior-path: directional rectangular both 12.0pt 0.500000 false;
+	display: block;
+	height: 340.000pt;
+	left: 0.000pt;
+	position: absolute;
+	top: 0.000pt;
+	width: 230.000pt;
+}
+#textShape-198-svg{
+	height: 413.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 276.000pt;
+}
+#textShape-134-svg{
+	height: 79.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 206.000pt;
+}
+#image-271{
+	-ibooks-slot: image-271;
+	display: block;
+}
+#viewport-popup-110-alt{
+	display: block;
+	height: 321.0pt;
+	left: -0.5pt;
+	top: -0.5pt;
+	visibility: hidden;
+	width: 301.0pt;
+}
+#image-382{
+	-ibooks-slot: image-382;
+	display: block;
+}
+#textShape-138-div{
+	height: 237.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 276.000pt;
+}
+#viewport-popup-95-alt{
+	display: block;
+	height: 371.0pt;
+	left: -0.5pt;
+	top: -0.5pt;
+	visibility: hidden;
+	width: 301.0pt;
+}
+#textShape-161-div{
+	height: 66.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 206.000pt;
+}
+#image-268{
+	height: 1.000pt;
+	width: 240.000pt;
+}
+#image-134{
+	-ibooks-slot: image-134;
+	display: block;
+}
+#image-356{
+	height: 1.000pt;
+	width: 240.000pt;
+}
+#textShape-195-svg{
+	height: 403.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 206.000pt;
+}
+#textShape-176-svg{
+	height: 20.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 50.000pt;
+}
+#viewport-popup-96-background{
+	-ibooks-box-wrap-exterior-path: directional rectangular both 12.0pt 0.500000 false;
+	display: block;
+	height: 340.000pt;
+	left: 0.000pt;
+	position: absolute;
+	top: 0.000pt;
+	width: 230.000pt;
+}
+#textShape-131-svg{
+	height: 70.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 200.000pt;
+}
+#image-333{
+	-ibooks-slot: image-333;
+	display: block;
+}
+#viewport-popup-105{
+	-ibooks-slot: viewport-popup-105;
+	display: block;
+}
+#textShape-99-div{
+	height: 280.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 260.000pt;
+}
+#image-310{
+	height: 0.817pt;
+	width: 196.000pt;
+}
+#textShape-79-svg{
+	height: 70.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 800.000pt;
+}
+#viewport-popup-92{
+	-ibooks-slot: viewport-popup-92;
+	display: block;
+}
+#textShape-25{
+	display: block;
+	height: 10.000pt;
+	left: 10.000pt;
+	position: absolute;
+	top: 10.000pt;
+	width: 50.000pt;
+}
+#textShape-169-svg{
+	height: 70.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 200.000pt;
+}
+#viewport-popup-95-background{
+	-ibooks-box-wrap-exterior-path: directional rectangular both 12.0pt 0.500000 false;
+	display: block;
+	height: 370.000pt;
+	left: 0.000pt;
+	position: absolute;
+	top: 0.000pt;
+	width: 300.000pt;
+}
+#textShape-166{
+	-ibooks-box-wrap-exterior-path: directional contour both 12.0pt 0.000000 false;
+	-ibooks-line-hints: textShape-166 p url(../hints/content12-paginated.plist) 288 10;
+	display: block;
+	height: 332.000pt;
+	left: 0.000pt;
+	position: absolute;
+	top: 0.000pt;
+	width: 276.000pt;
+}
+#textShape-174{
+	-ibooks-box-wrap-exterior-path: directional contour both 12.0pt 0.000000 false;
+	-ibooks-line-hints: textShape-174 p url(../hints/content12-paginated.plist) 301 11;
+	display: block;
+	height: 359.000pt;
+	left: 0.000pt;
+	position: absolute;
+	top: 0.000pt;
+	width: 276.000pt;
+}
+#textShape-173-svg{
+	height: 79.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 206.000pt;
+}
+#image-292{
+	-ibooks-slot: image-292;
+	display: block;
+}
+#image-307{
+	height: 0.817pt;
+	width: 196.000pt;
+}
+#textShape-89{
+	display: block;
+	height: 195.000pt;
+	left: 323.000pt;
+	position: absolute;
+	top: 50.000pt;
+	width: 72.000pt;
+}
+#textShape-182{
+	-ibooks-box-wrap-exterior-path: directional contour both 12.0pt 0.000000 false;
+	-ibooks-line-hints: textShape-182 p url(../hints/content12-paginated.plist) 429 10;
+	display: block;
+	height: 332.000pt;
+	left: 0.000pt;
+	position: absolute;
+	top: 0.000pt;
+	width: 276.000pt;
+}
+#textShape-190{
+	-ibooks-box-wrap-exterior-path: directional contour both 12.0pt 0.000000 false;
+	-ibooks-line-hints: textShape-190 p url(../hints/content12-paginated.plist) 442 8;
+	display: block;
+	height: 264.000pt;
+	left: 0.000pt;
+	position: absolute;
+	top: 0.000pt;
+	width: 276.000pt;
+}
+#textShape-177-div{
+	height: 20.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 800.000pt;
+}
+#textShape-132-div{
+	height: 210.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 276.000pt;
+}
+#image-380{
+	-ibooks-slot: image-380;
+	display: block;
+}
+#image-4{
+	-ibooks-box-wrap-exterior-path: directional contour both 12.0pt 0.500000 false;
+	display: block;
+	height: 34.675pt;
+	left: 20.000pt;
+	position: absolute;
+	top: 26.000pt;
+	width: 30.000pt;
+}
+#textShape-113{
+	-ibooks-slot: textShape-113;
+	display: block;
+}
+#textShape-121{
+	-ibooks-box-wrap-exterior-path: directional contour both 12.0pt 0.000000 false;
+	-ibooks-line-hints: textShape-121 p url(../hints/content12-paginated.plist) 151 5;
+	display: block;
+	height: 79.000pt;
+	left: 0.000pt;
+	position: absolute;
+	top: 0.000pt;
+	width: 206.000pt;
+}
+#textShape-208{
+	-ibooks-slot: textShape-208;
+	display: block;
+}
+#textShape-388{
+	-ibooks-box-wrap-exterior-path: directional contour both 12.0pt 0.000000 false;
+	-ibooks-line-hints: textShape-388 p url(../hints/content12-paginated.plist) 628 5;
+	display: block;
+	height: 79.000pt;
+	left: 0.000pt;
+	position: absolute;
+	top: 0.000pt;
+	width: 206.000pt;
+}
+#image-289{
+	height: 1.000pt;
+	width: 240.000pt;
+}
+#viewport-popup-94-background{
+	-ibooks-box-wrap-exterior-path: directional rectangular both 12.0pt 0.500000 false;
+	display: block;
+	height: 440.000pt;
+	left: 0.000pt;
+	position: absolute;
+	top: 0.000pt;
+	width: 300.000pt;
+}
+#textShape-102-svg{
+	height: 508.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 306.000pt;
+}
+#image-266{
+	height: 1.000pt;
+	width: 240.000pt;
+}
+#textShape-170-svg{
+	height: 403.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 206.000pt;
+}
+#image-354{
+	height: 0.817pt;
+	width: 196.000pt;
+}
+#textShape-390-svg{
+	height: 20.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 800.000pt;
+}
+#textShape-174-div{
+	height: 359.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 276.000pt;
+}
+#image-331{
+	height: 1.000pt;
+	width: 240.000pt;
+}
+#textShape-252-div{
+	height: 20.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 100.000pt;
+}
+#viewport-popup-68-background{
+	-ibooks-box-wrap-exterior-path: directional rectangular both 12.0pt 0.500000 false;
+	display: block;
+	height: 110.000pt;
+	left: 0.000pt;
+	position: absolute;
+	top: 0.000pt;
+	width: 230.000pt;
+}
+#image-129{
+	height: 1.000pt;
+	width: 240.000pt;
+}
+#textShape-144-svg{
+	height: 70.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 200.000pt;
+}
+#textShape-93{
+	-ibooks-slot: textShape-93;
+	display: block;
+}
+#image-328{
+	height: 1.000pt;
+	width: 240.000pt;
+}
+#image-305{
+	-ibooks-slot: image-305;
+	display: block;
+}
+#image-290{
+	height: 1.000pt;
+	width: 240.000pt;
+}
+#image-416{
+	-ibooks-slot: image-416;
+	display: block;
+}
+#textShape-372-div{
+	height: 79.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 206.000pt;
+}
+#textShape-118-svg{
+	height: 142.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 276.000pt;
+}
+#textShape-22-svg{
+	height: 20.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 800.000pt;
+}
+#viewport-popup-99{
+	-ibooks-slot: viewport-popup-99;
+	display: block;
+}
+#viewport-popup-115{
+	-ibooks-slot: viewport-popup-115;
+	display: block;
+}
+#viewport-popup-84-alt{
+	display: block;
+	height: 341.0pt;
+	left: -0.5pt;
+	top: -0.5pt;
+	visibility: hidden;
+	width: 231.0pt;
+}
+#textShape-141-svg{
+	height: 20.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 50.000pt;
+}
+#image-287{
+	height: 1.000pt;
+	width: 240.000pt;
+}
+#image-398{
+	height: 1.000pt;
+	width: 240.000pt;
+}
+#textShape-168{
+	-ibooks-slot: textShape-168;
+	display: block;
+}
+#textShape-176{
+	-ibooks-slot: textShape-176;
+	display: block;
+}
+#textShape-145-div{
+	height: 403.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 206.000pt;
+}
+#viewport-popup-85{
+	-ibooks-slot: viewport-popup-85;
+	display: block;
+}
+#image-264{
+	height: 1.000pt;
+	width: 240.000pt;
+}
+#textShape-184{
+	-ibooks-slot: textShape-184;
+	display: block;
+}
+#textShape-192{
+	-ibooks-slot: textShape-192;
+	display: block;
+}
+#image-130{
+	height: 1.000pt;
+	width: 240.000pt;
+}
+#textShape-115{
+	-ibooks-slot: textShape-115;
+	display: block;
+}
+#textShape-123{
+	-ibooks-slot: textShape-123;
+	display: block;
+}
+#textShape-131{
+	-ibooks-slot: textShape-131;
+	display: block;
+}
+#textShape-179-svg{
+	height: 403.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 206.000pt;
+}
+#textShape-115-svg{
+	height: 70.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 200.000pt;
+}
+#image-352{
+	-ibooks-slot: image-352;
+	display: block;
+}
+#viewport-popup-110-background{
+	-ibooks-box-wrap-exterior-path: directional rectangular both 12.0pt 0.500000 false;
+	display: block;
+	height: 320.000pt;
+	left: 0.000pt;
+	position: absolute;
+	top: 0.000pt;
+	width: 300.000pt;
+}
+#textShape-119-div{
+	height: 403.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 206.000pt;
+}
+#textShape-183-svg{
+	height: 20.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 50.000pt;
+}
+#image-127{
+	height: 0.817pt;
+	width: 196.000pt;
+}
+#image-349{
+	height: 0.817pt;
+	width: 196.000pt;
+}
+#textShape-187-div{
+	height: 403.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 206.000pt;
+}
+#textShape-201-div{
+	height: 70.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 200.000pt;
+}
+#image-326{
+	-ibooks-slot: image-326;
+	display: block;
+}
+#textShape-25-svg{
+	height: 10.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 50.000pt;
+}
+#viewport-popup-81-alt{
+	display: block;
+	height: 101.0pt;
+	left: -0.5pt;
+	top: -0.5pt;
+	visibility: hidden;
+	width: 231.0pt;
+}
+#image-303{
+	-ibooks-slot: image-303;
+	display: block;
+}
+#image-414{
+	-ibooks-slot: image-414;
+	display: block;
+}
+#textShape-180-svg{
+	height: 403.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 206.000pt;
+}
+#textShape-97{
+	-ibooks-slot: textShape-97;
+	display: block;
+}
+#viewport-popup-91-alt{
+	display: block;
+	height: 111.0pt;
+	left: -0.5pt;
+	top: -0.5pt;
+	visibility: hidden;
+	width: 231.0pt;
+}
+#textShape-184-div{
+	height: 20.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 800.000pt;
+}
+#image-396{
+	-ibooks-slot: image-396;
+	display: block;
+}
+#textShape-385-div{
+	height: 20.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 800.000pt;
+}
+#image-262{
+	-ibooks-slot: image-262;
+	display: block;
+}
+#image-373{
+	height: 1.000pt;
+	width: 240.000pt;
+}
+#viewport-popup-121-background{
+	-ibooks-box-wrap-exterior-path: directional rectangular both 12.0pt 0.500000 false;
+	display: block;
+	height: 340.000pt;
+	left: 0.000pt;
+	position: absolute;
+	top: 0.000pt;
+	width: 230.000pt;
+}
+#image-350{
+	height: 0.817pt;
+	width: 196.000pt;
+}
+#viewport-popup-106{
+	-ibooks-slot: viewport-popup-106;
+	display: block;
+}
+#textShape-113-div{
+	height: 20.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 50.000pt;
+}
+#image-148{
+	height: 1.000pt;
+	width: 240.000pt;
+}
+#textShape-178{
+	-ibooks-slot: textShape-178;
+	display: block;
+}
+#textShape-186{
+	-ibooks-box-wrap-exterior-path: directional contour both 12.0pt 0.000000 false;
+	-ibooks-line-hints: textShape-186 p url(../hints/content12-paginated.plist) 450 26;
+	display: block;
+	height: 403.000pt;
+	left: 0.000pt;
+	position: absolute;
+	top: 0.000pt;
+	width: 206.000pt;
+}
+#textShape-194{
+	-ibooks-slot: textShape-194;
+	display: block;
+}
+#viewport-popup-94{
+	-ibooks-slot: viewport-popup-94;
+	display: block;
+}
+#textShape-181-div{
+	height: 79.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 206.000pt;
+}
+#image-125{
+	-ibooks-slot: image-125;
+	display: block;
+}
+#textShape-128-svg{
+	height: 79.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 206.000pt;
+}
+#image-347{
+	height: 0.817pt;
+	width: 196.000pt;
+}
+#textShape-117{
+	-ibooks-box-wrap-exterior-path: directional contour both 12.0pt 0.000000 false;
+	-ibooks-line-hints: textShape-117 p url(../hints/content12-paginated.plist) 95 26;
+	display: block;
+	height: 403.000pt;
+	left: 0.000pt;
+	position: absolute;
+	top: 0.000pt;
+	width: 206.000pt;
+}
+#textShape-125{
+	-ibooks-box-wrap-exterior-path: directional contour both 12.0pt 0.000000 false;
+	-ibooks-line-hints: textShape-125 p url(../hints/content12-paginated.plist) 159 26;
+	display: block;
+	height: 403.000pt;
+	left: 0.000pt;
+	position: absolute;
+	top: 0.000pt;
+	width: 206.000pt;
+}
+#image-324{
+	-ibooks-slot: image-324;
+	display: block;
+}
+#textShape-141{
+	-ibooks-slot: textShape-141;
+	display: block;
+}
+#textShape-133{
+	-ibooks-box-wrap-exterior-path: directional contour both 12.0pt 0.000000 false;
+	-ibooks-line-hints: textShape-133 p url(../hints/content12-paginated.plist) 46 26;
+	display: block;
+	height: 403.000pt;
+	left: 0.000pt;
+	position: absolute;
+	top: 0.000pt;
+	width: 206.000pt;
+}
+#viewport-popup-100{
+	-ibooks-slot: viewport-popup-100;
+	display: block;
+}
+#viewport-popup-87-alt{
+	display: block;
+	height: 251.0pt;
+	left: -0.5pt;
+	top: -0.5pt;
+	visibility: hidden;
+	width: 301.0pt;
+}
+#image-22{
+	-ibooks-slot: image-22;
+	display: block;
+}
+#textShape-252{
+	-ibooks-slot: textShape-252;
+	display: block;
+}
+#image-301{
+	height: 9.000pt;
+	width: 8.000pt;
+}
+#image-412{
+	-ibooks-slot: image-412;
+	display: block;
+}
+#viewport-popup-64{
+	-ibooks-slot: viewport-popup-64;
+	display: block;
+}
+#viewport-popup-93-background{
+	-ibooks-box-wrap-exterior-path: directional rectangular both 12.0pt 0.500000 false;
+	display: block;
+	height: 440.000pt;
+	left: 0.000pt;
+	position: absolute;
+	top: 0.000pt;
+	width: 300.000pt;
+}
+#textShape-125-svg{
+	height: 403.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 206.000pt;
+}
+#image-409{
+	height: 0.817pt;
+	width: 196.000pt;
+}
+#image-283{
+	height: 0.817pt;
+	width: 196.000pt;
+}
+#textShape-129-div{
+	height: 20.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 50.000pt;
+}
+#viewport-popup-59-alt{
+	display: block;
+	height: 111.0pt;
+	left: -0.5pt;
+	top: -0.5pt;
+	visibility: hidden;
+	width: 231.0pt;
+}
+#image-260{
+	-ibooks-slot: image-260;
+	display: block;
+}
+#textShape-193-svg{
+	height: 20.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 800.000pt;
+}
+#image-371{
+	height: 1.000pt;
+	width: 240.000pt;
+}
+#viewport-popup-92-background{
+	-ibooks-box-wrap-exterior-path: directional rectangular both 12.0pt 0.500000 false;
+	display: block;
+	height: 100.000pt;
+	left: 0.000pt;
+	position: absolute;
+	top: 0.000pt;
+	width: 230.000pt;
+}
+#textShape-197-div{
+	height: 79.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 206.000pt;
+}
+#viewport-popup-102-background{
+	-ibooks-box-wrap-exterior-path: directional rectangular both 12.0pt 0.500000 false;
+	display: block;
+	height: 340.000pt;
+	left: 0.000pt;
+	position: absolute;
+	top: 0.000pt;
+	width: 230.000pt;
+}
+#image-146{
+	-ibooks-slot: image-146;
+	display: block;
+}
+#image-257{
+	height: 0.817pt;
+	width: 196.000pt;
+}
+#textShape-167-svg{
+	height: 20.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 50.000pt;
+}
+#textShape-122-svg{
+	height: 20.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 50.000pt;
+}
+#textShape-186-svg{
+	height: 403.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 206.000pt;
+}
+#image-368{
+	-ibooks-slot: image-368;
+	display: block;
+}
+#textShape-200-svg{
+	height: 20.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 800.000pt;
+}
+#image-345{
+	-ibooks-slot: image-345;
+	display: block;
+}
+#viewport-popup-88-background{
+	-ibooks-box-wrap-exterior-path: directional rectangular both 12.0pt 0.500000 false;
+	display: block;
+	height: 340.000pt;
+	left: 0.000pt;
+	position: absolute;
+	top: 0.000pt;
+	width: 230.000pt;
+}
+#viewport-popup-91-background{
+	-ibooks-box-wrap-exterior-path: directional rectangular both 12.0pt 0.500000 false;
+	display: block;
+	height: 110.000pt;
+	left: 0.000pt;
+	position: absolute;
+	top: 0.000pt;
+	width: 230.000pt;
+}
+#textShape-387-svg{
+	height: 403.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 206.000pt;
+}
+#viewport-popup-66-background{
+	-ibooks-box-wrap-exterior-path: directional rectangular both 12.0pt 0.500000 false;
+	display: block;
+	height: 430.000pt;
+	left: 0.000pt;
+	position: absolute;
+	top: 0.000pt;
+	width: 230.000pt;
+}
+#textShape-190-svg{
+	height: 264.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 276.000pt;
+}
+#textShape-204-div{
+	height: 291.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 276.000pt;
+}
+#image-322{
+	-ibooks-slot: image-322;
+	display: block;
+}
+#viewport-popup-94-alt{
+	display: block;
+	height: 441.0pt;
+	left: -0.5pt;
+	top: -0.5pt;
+	visibility: hidden;
+	width: 301.0pt;
+}
+#textShape-194-div{
+	height: 70.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 200.000pt;
+}
+#image-410{
+	-ibooks-slot: image-410;
+	display: block;
+}
+#textShape-188{
+	-ibooks-box-wrap-exterior-path: directional contour both 12.0pt 0.000000 false;
+	-ibooks-line-hints: textShape-188 p url(../hints/content12-paginated.plist) 502 5;
+	display: block;
+	height: 79.000pt;
+	left: 0.000pt;
+	position: absolute;
+	top: 0.000pt;
+	width: 206.000pt;
+}
+#viewport-popup-105-background{
+	-ibooks-box-wrap-exterior-path: directional rectangular both 12.0pt 0.500000 false;
+	display: block;
+	height: 370.000pt;
+	left: 0.000pt;
+	position: absolute;
+	top: 0.000pt;
+	width: 300.000pt;
+}
+#viewport-popup-116{
+	-ibooks-slot: viewport-popup-116;
+	display: block;
+}
+#textShape-164-svg{
+	height: 400.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 276.000pt;
+}
+#image-319{
+	height: 1.000pt;
+	width: 240.000pt;
+}
+#textShape-119{
+	-ibooks-box-wrap-exterior-path: directional contour both 12.0pt 0.000000 false;
+	-ibooks-line-hints: textShape-119 p url(../hints/content12-paginated.plist) 125 26;
+	display: block;
+	height: 403.000pt;
+	left: 0.000pt;
+	position: absolute;
+	top: 0.000pt;
+	width: 206.000pt;
+}
+#viewport-popup-65-background{
+	-ibooks-box-wrap-exterior-path: directional rectangular both 12.0pt 0.500000 false;
+	display: block;
+	height: 220.000pt;
+	left: 0.000pt;
+	position: absolute;
+	top: 0.000pt;
+	width: 300.000pt;
+}
+#textShape-127{
+	-ibooks-box-wrap-exterior-path: directional contour both 12.0pt 0.000000 false;
+	-ibooks-line-hints: textShape-127 p url(../hints/content12-paginated.plist) 185 3;
+	display: block;
+	height: 66.000pt;
+	left: 0.000pt;
+	position: absolute;
+	top: 0.000pt;
+	width: 206.000pt;
+}
+#textShape-143{
+	-ibooks-slot: textShape-143;
+	display: block;
+}
+#textShape-168-div{
+	height: 20.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 800.000pt;
+}
+#textShape-123-div{
+	height: 20.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 800.000pt;
+}
+#textShape-104-div{
+	height: 79.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 206.000pt;
+}
+#textShape-88{
+	display: block;
+	height: 195.000pt;
+	left: 5.000pt;
+	position: absolute;
+	top: 50.000pt;
+	width: 72.000pt;
+}
+#viewport-popup-87{
+	-ibooks-slot: viewport-popup-87;
+	display: block;
+}
+#image-281{
+	height: 0.817pt;
+	width: 196.000pt;
+}
+#textShape-78-div{
+	height: 20.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 800.000pt;
+}
+#image-392{
+	height: 0.817pt;
+	width: 196.000pt;
+}
+#textShape-384-svg{
+	height: 20.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 50.000pt;
+}
+#viewport-popup-110{
+	-ibooks-slot: viewport-popup-110;
+	display: block;
+}
+#image-407{
+	height: 0.817pt;
+	width: 196.000pt;
+}
+#viewport-popup-66-alt{
+	display: block;
+	height: 431.0pt;
+	left: -0.5pt;
+	top: -0.5pt;
+	visibility: hidden;
+	width: 231.0pt;
+}
+#textShape-201{
+	-ibooks-slot: textShape-201;
+	display: block;
+}
+#textShape-138-svg{
+	height: 237.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 276.000pt;
+}
+#textShape-388-div{
+	height: 79.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 206.000pt;
+}
+#image-278{
+	-ibooks-slot: image-278;
+	display: block;
+}
+#viewport-popup-108-background{
+	-ibooks-box-wrap-exterior-path: directional rectangular both 12.0pt 0.500000 false;
+	display: block;
+	height: 110.000pt;
+	left: 0.000pt;
+	position: absolute;
+	top: 0.000pt;
+	width: 230.000pt;
+}
+#image-389{
+	height: 1.000pt;
+	width: 240.000pt;
+}
+#viewport-popup-57{
+	-ibooks-slot: viewport-popup-57;
+	display: block;
+}
+#textShape-161-svg{
+	height: 66.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 206.000pt;
+}
+#image-144{
+	height: 1.000pt;
+	width: 240.000pt;
+}
+#textShape-165-div{
+	height: 400.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 276.000pt;
+}
+#textShape-101-div{
+	height: 138.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 260.000pt;
+}
+#image-343{
+	-ibooks-slot: image-343;
+	display: block;
+}
+#image-565{
+	-ibooks-slot: image-565;
+	display: block;
+}
+#image-320{
+	-ibooks-slot: image-320;
+	display: block;
+}
+#textShape-199-svg{
+	height: 20.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 50.000pt;
+}
+#textShape-92{
+	-ibooks-slot: textShape-92;
+	display: block;
+}
+#viewport-popup-116-background{
+	-ibooks-box-wrap-exterior-path: directional rectangular both 12.0pt 0.500000 false;
+	display: block;
+	height: 340.000pt;
+	left: 0.000pt;
+	position: absolute;
+	top: 0.000pt;
+	width: 230.000pt;
+}
+#textShape-139-div{
+	height: 210.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 276.000pt;
+}
+#textShape-93-svg{
+	height: 20.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 800.000pt;
+}
+#textShape-77-svg{
+	height: 20.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 50.000pt;
+}
+#textShape-162-div{
+	height: 70.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 200.000pt;
+}
+#image-317{
+	height: 1.000pt;
+	width: 240.000pt;
+}
+#image-405{
+	height: 0.817pt;
+	width: 196.000pt;
+}
+#image-390{
+	height: 0.817pt;
+	width: 196.000pt;
+}
+#textShape-198{
+	-ibooks-box-wrap-exterior-path: directional contour both 12.0pt 0.000000 false;
+	-ibooks-line-hints: textShape-198 p url(../hints/content12-paginated.plist) 510 13;
+	display: block;
+	height: 413.000pt;
+	left: 0.000pt;
+	position: absolute;
+	top: 0.000pt;
+	width: 276.000pt;
+}
+#textShape-132-svg{
+	height: 210.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 276.000pt;
+}
+#image-299{
+	-ibooks-box-wrap-exterior-path: directional contour both 12.0pt 0.500000 false;
+	display: block;
+	height: 748.000pt;
+	left: 0.000pt;
+	position: absolute;
+	top: 30.000pt;
+	width: 215.424pt;
+}
+#viewport-popup-119-background{
+	-ibooks-box-wrap-exterior-path: directional rectangular both 12.0pt 0.500000 false;
+	display: block;
+	height: 110.000pt;
+	left: 0.000pt;
+	position: absolute;
+	top: 0.000pt;
+	width: 230.000pt;
+}
+#viewport-popup-107{
+	-ibooks-slot: viewport-popup-107;
+	display: block;
+}
+#textShape-129{
+	-ibooks-slot: textShape-129;
+	display: block;
+}
+#image-276{
+	-ibooks-slot: image-276;
+	display: block;
+}
+#textShape-145{
+	-ibooks-box-wrap-exterior-path: directional contour both 12.0pt 0.000000 false;
+	-ibooks-line-hints: textShape-145 p url(../hints/content12-paginated.plist) 204 26;
+	display: block;
+	height: 403.000pt;
+	left: 0.000pt;
+	position: absolute;
+	top: 0.000pt;
+	width: 206.000pt;
+}
+#textShape-137{
+	-ibooks-slot: textShape-137;
+	display: block;
+}
+#textShape-161{
+	-ibooks-box-wrap-exterior-path: directional contour both 12.0pt 0.000000 false;
+	-ibooks-line-hints: textShape-161 p url(../hints/content12-paginated.plist) 261 3;
+	display: block;
+	height: 66.000pt;
+	left: 0.000pt;
+	position: absolute;
+	top: 0.000pt;
+	width: 206.000pt;
+}
+#image-165{
+	height: 0.817pt;
+	width: 196.000pt;
+}
+#image-387{
+	-ibooks-slot: image-387;
+	display: block;
+}
+#textShape-391{
+	-ibooks-slot: textShape-391;
+	display: block;
+}
+#viewport-popup-96{
+	-ibooks-slot: viewport-popup-96;
+	display: block;
+}
+#image-364{
+	-ibooks-slot: image-364;
+	display: block;
+}
+#image-563{
+	-ibooks-box-wrap-exterior-path: directional contour both 12.0pt 0.500000 false;
+	display: block;
+	height: 748.000pt;
+	left: 0.000pt;
+	position: absolute;
+	top: 0.000pt;
+	width: 215.424pt;
+}
+#textShape-100{
+	-ibooks-slot: textShape-100;
+	display: block;
+}
+#textShape-174-svg{
+	height: 359.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 276.000pt;
+}
+#viewport-popup-82{
+	-ibooks-slot: viewport-popup-82;
+	display: block;
+}
+#textShape-252-svg{
+	height: 20.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 100.000pt;
+}
+#image-139{
+	height: 0.817pt;
+	width: 196.000pt;
+}
+#textShape-96-svg{
+	height: 50.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 150.000pt;
+}
+#textShape-178-div{
+	height: 70.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 200.000pt;
+}
+#textShape-133-div{
+	height: 403.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 206.000pt;
+}
+#viewport-popup-66{
+	-ibooks-slot: viewport-popup-66;
+	display: block;
+}
+#image-338{
+	height: 0.817pt;
+	width: 196.000pt;
+}
+#image-315{
+	height: 1.000pt;
+	width: 240.000pt;
+}
+#textShape-103-svg{
+	height: 70.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 200.000pt;
+}
+#textShape-79{
+	-ibooks-slot: textShape-79;
+	display: block;
+}
+#image-403{
+	-ibooks-slot: image-403;
+	display: block;
+}
+#textShape-96{
+	-ibooks-slot: textShape-96;
+	display: block;
+}
+#group-21-gen{
+	-ibooks-slot: group-21-gen;
+	display: block;
+}
+#textShape-391-svg{
+	height: 70.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 200.000pt;
+}
+#viewport-popup-79-alt{
+	display: block;
+	height: 341.0pt;
+	left: -0.5pt;
+	top: -0.5pt;
+	visibility: hidden;
+	width: 231.0pt;
+}
+#textShape-130-div{
+	height: 20.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 800.000pt;
+}
+#image-297{
+	-ibooks-slot: image-297;
+	display: block;
+}
+#image-274{
+	-ibooks-slot: image-274;
+	display: block;
+}
+#image-385{
+	-ibooks-slot: image-385;
+	display: block;
+}
+#viewport-popup-87-background{
+	-ibooks-box-wrap-exterior-path: directional rectangular both 12.0pt 0.500000 false;
+	display: block;
+	height: 250.000pt;
+	left: 0.000pt;
+	position: absolute;
+	top: 0.000pt;
+	width: 300.000pt;
+}
+#viewport-popup-90-background{
+	-ibooks-box-wrap-exterior-path: directional rectangular both 12.0pt 0.500000 false;
+	display: block;
+	height: 430.000pt;
+	left: 0.000pt;
+	position: absolute;
+	top: 0.000pt;
+	width: 230.000pt;
+}
+#textShape-145-svg{
+	height: 403.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 206.000pt;
+}
+#textShape-100-svg{
+	height: 50.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 150.000pt;
+}
+#image-362{
+	-ibooks-slot: image-362;
+	display: block;
+}
+#textShape-149-div{
+	height: 403.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 206.000pt;
+}
+#textShape-99-svg{
+	height: 280.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 260.000pt;
+}
+#textShape-172-div{
+	height: 403.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 206.000pt;
+}
+#textShape-139{
+	-ibooks-box-wrap-exterior-path: directional contour both 12.0pt 0.000000 false;
+	-ibooks-line-hints: textShape-139 p url(../hints/content12-paginated.plist) 193 6;
+	display: block;
+	height: 210.000pt;
+	left: 0.000pt;
+	position: absolute;
+	top: 0.000pt;
+	width: 276.000pt;
+}
+#textShape-927-div{
+	height: 100.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 100.000pt;
+}
+#textShape-119-svg{
+	height: 403.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 206.000pt;
+}
+#textShape-163{
+	-ibooks-slot: textShape-163;
+	display: block;
+}
+#image-137{
+	height: 0.817pt;
+	width: 196.000pt;
+}
+#textShape-83{
+	display: block;
+	height: 40.000pt;
+	left: 5.000pt;
+	position: absolute;
+	top: 5.000pt;
+	width: 389.000pt;
+}
+#viewport-popup-86-background{
+	-ibooks-box-wrap-exterior-path: directional rectangular both 12.0pt 0.500000 false;
+	display: block;
+	height: 280.000pt;
+	left: 0.000pt;
+	position: absolute;
+	top: 0.000pt;
+	width: 300.000pt;
+}
+#viewport-popup-64-background{
+	-ibooks-box-wrap-exterior-path: directional rectangular both 12.0pt 0.500000 false;
+	display: block;
+	height: 340.000pt;
+	left: 0.000pt;
+	position: absolute;
+	top: 0.000pt;
+	width: 230.000pt;
+}
+#image-359{
+	height: 0.817pt;
+	width: 196.000pt;
+}
+#textShape-385{
+	-ibooks-slot: textShape-385;
+	display: block;
+}
+#image-336{
+	height: 0.817pt;
+	width: 196.000pt;
+}

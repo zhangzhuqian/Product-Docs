@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>artistName</key>
+	<string>顾帆（粢饭大人）</string>
+	<key>book-info</key>
+	<dict>
+		<key>cover-image-hash</key>
+		<string>3B9CBD717F84201095D7C68454E414D9</string>
+		<key>cover-image-path</key>
+		<string>OPS/assets/images/cover-image.jpg</string>
+		<key>mime-type</key>
+		<string>application/x-ibooks+zip</string>
+		<key>package-file-hash</key>
+		<string>292C72BA75D04E671DD4FAECBA1A4CB3</string>
+		<key>publisher-unique-id</key>
+		<string>B5F722BA-989E-4738-9F6F-AAAD169F9802</string>
+		<key>unique-id</key>
+		<integer>6697593368523351238</integer>
+		<key>update-level</key>
+		<integer>2</integer>
+	</dict>
+	<key>itemName</key>
+	<string>Sketch 3 中文手册</string>
+	<key>playlistName</key>
+	<string>Sketch 3 中文手册</string>
+	<key>releaseDate</key>
+	<string>2014-07-31T15:40:53Z</string>
+</dict>
+</plist>

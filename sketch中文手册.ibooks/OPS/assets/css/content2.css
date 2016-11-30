@@ -1,0 +1,1287 @@
+@namespace ibooks "http://www.apple.com/2011/iBooks";
+@font-face{
+  font-family: "HiraginoSansGB-W3";
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+  src: url("../fonts/Hiragino%20Sans%20GB%20W3.otf");
+}
+sup{
+	font-size: 67%;
+	vertical-align: 33%;
+}
+a.anchor{
+	-ibooks-layout-hint: anchor;
+	display: none;
+}
+a.pageShape{
+	-ibooks-layout-hint: anchor page shape;
+	display: none;
+}
+.pagebreak{
+	break-after: page;
+}
+div.multichoice{
+	list-style-type: upper-alpha;
+}
+.columnbreak{
+	break-after: column;
+}
+p, ul, ol{
+	margin: 0px;
+}
+a.shape{
+	-ibooks-layout-hint: shape;
+	display: none;
+}
+body{
+	white-space: pre-wrap;
+}
+.hide{
+	display: none;
+}
+sub{
+	font-size: 67%;
+	vertical-align: -10%;
+}
+a.attachment{
+	-ibooks-layout-hint: inline;
+	display: none;
+}
+table{
+	border-collapse: collapse;
+	white-space: pre-wrap;
+}
+.inlineblock{
+	display: inline;
+}
+a.page{
+	-ibooks-layout-hint: anchor page;
+	display: none;
+}
+.s1{
+	-ibooks-stroke: none;
+	box-shadow: none;
+	fill: none;
+	marker-end: none;
+	marker-start: none;
+	opacity: 1.000;
+	stroke: #818181;
+	stroke-linecap: butt;
+	stroke-linejoin: miter;
+	stroke-miterlimit: 4.0;
+	stroke-width: 0.5pt;
+}
+.s2{
+	-ibooks-stroke: none;
+	box-shadow: none;
+	fill: #5ABEC1;
+	opacity: 1.000;
+	stroke: #4D4D4D;
+	stroke-linecap: butt;
+	stroke-linejoin: miter;
+	stroke-miterlimit: 4.0;
+	stroke-width: 0.5pt;
+}
+.s3{
+	fill: #041932;
+}
+.s4{
+	-ibooks-stroke: none;
+	box-shadow: none;
+	fill: none;
+	opacity: 1.000;
+	stroke: none;
+}
+.s5{
+	-ibooks-column-count: 1;
+	padding-bottom: 0.0000pt;
+	padding-left: 0.0000pt;
+	padding-right: 0.0000pt;
+	padding-top: 0.0000pt;
+	vertical-align: bottom;
+}
+.s6{
+	vertical-align: middle;
+}
+.s7{
+	-ibooks-strikethru-type: none;
+	-ibooks-strikethru-width: 1.0000px;
+	-ibooks-underline-type: none;
+	-ibooks-underline-width: 1.0000px;
+	border-bottom-style: none;
+	border-bottom-width: 0.0000px;
+	border-left-style: none;
+	border-left-width: 0.0000px;
+	border-right-style: none;
+	border-right-width: 0.0000px;
+	border-top-style: none;
+	border-top-width: 0.0000px;
+	color: #232323;
+	font-family: "Georgia";
+	font-size: 200.0000%;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	hyphens: auto;
+	letter-spacing: 0.0000em;
+	line-height: 1.200000em;
+	margin-bottom: 0.0000pt;
+	margin-left: 0.0000pt;
+	margin-right: 0.0000pt;
+	margin-top: 0.0000pt;
+	page-break-before: auto;
+	tab-interval: 36.0000pt;
+	tab-stops: none;
+	text-align: left;
+	text-indent: 0.0000pt;
+	text-shadow: none;
+	text-transform: none;
+	vertical-align: 0.0000pt;
+	text-decoration: none;
+}
+.s8{
+	-ibooks-list-text-indent: 0.0000pt;
+	color: #1FBCD7;
+	font-family: "HiraginoSansGB-W3";
+	line-height: 0.800000em;
+}
+.s9{
+	-ibooks-list-text-indent: 0.0000pt;
+	color: #FFFFFF;
+	font-family: "HiraginoSansGB-W3";
+	font-size: 100.0000%;
+	line-height: 0.800000em;
+	text-align: center;
+}
+.s10{
+	fill: #11BCD7;
+	stroke: none;
+}
+.s11{
+	fill: #021932;
+	stroke: none;
+}
+.s12{
+	fill: #1FBCD7;
+	stroke: none;
+}
+.s13{
+	fill: #1FBCD9;
+	stroke: none;
+}
+.s14{
+	fill: rgba(31,188,217,0.000000);
+	stroke: #1FBCD7;
+	stroke-width: 2.0pt;
+}
+.s15{
+	fill: rgba(31,188,217,0.000000);
+	stroke: #1FBCD7;
+	stroke-dasharray: 4.0pt 4.0pt;
+	stroke-dashoffset: 0.0pt;
+	stroke-width: 2.0pt;
+}
+.s16{
+	-ibooks-stroke: none;
+	box-shadow: none;
+	fill: #EBEBEB;
+	opacity: 1.000;
+	stroke: #818181;
+	stroke-linecap: butt;
+	stroke-linejoin: miter;
+	stroke-miterlimit: 4.0;
+	stroke-width: 1.0pt;
+}
+.s17{
+	opacity: 0.000;
+}
+.s18{
+	-ibooks-column-count: 1;
+	padding-bottom: 0.0000pt;
+	padding-left: 0.0000pt;
+	padding-right: 0.0000pt;
+	padding-top: 0.0000pt;
+	vertical-align: top;
+}
+.s19{
+	-ibooks-strikethru-type: none;
+	-ibooks-strikethru-width: 1.0000px;
+	-ibooks-underline-type: none;
+	-ibooks-underline-width: 1.0000px;
+	border-bottom-style: none;
+	border-bottom-width: 0.0000px;
+	border-left-style: none;
+	border-left-width: 0.0000px;
+	border-right-style: none;
+	border-right-width: 0.0000px;
+	border-top-style: none;
+	border-top-width: 0.0000px;
+	color: #606060;
+	font-family: "Georgia";
+	font-size: 125.0000%;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	hyphens: auto;
+	letter-spacing: 0.0000em;
+	line-height: 1.000000em;
+	margin-bottom: 0.0000pt;
+	margin-left: 0.0000pt;
+	margin-right: 0.0000pt;
+	margin-top: 0.0000pt;
+	page-break-before: auto;
+	tab-interval: 36.0000pt;
+	tab-stops: none;
+	text-align: left;
+	text-indent: 0.0000pt;
+	text-shadow: none;
+	text-transform: none;
+	vertical-align: 0.0000pt;
+	text-decoration: none;
+}
+.s20{
+	-ibooks-list-text-indent: 0.0000pt;
+	color: #021932;
+}
+.s21{
+	-ibooks-strikethru-type: none;
+	-ibooks-strikethru-width: 1.0000px;
+	-ibooks-underline-type: none;
+	-ibooks-underline-width: 1.0000px;
+	border-bottom-style: none;
+	border-bottom-width: 0.0000px;
+	border-left-style: none;
+	border-left-width: 0.0000px;
+	border-right-style: none;
+	border-right-width: 0.0000px;
+	border-top-style: none;
+	border-top-width: 0.0000px;
+	color: #232323;
+	font-family: "Georgia";
+	font-size: 133.3333%;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	hyphens: auto;
+	letter-spacing: 0.0000em;
+	line-height: 1.200000em;
+	margin-bottom: 0.0000pt;
+	margin-left: 0.0000pt;
+	margin-right: 0.0000pt;
+	margin-top: 0.0000pt;
+	page-break-before: auto;
+	tab-interval: 36.0000pt;
+	tab-stops: none;
+	text-align: left;
+	text-indent: 0.0000pt;
+	text-shadow: none;
+	text-transform: none;
+	vertical-align: 0.0000pt;
+	text-decoration: none;
+}
+.s22{
+	-ibooks-list-text-indent: 0.0000pt;
+	font-size: 1200.0000%;
+	line-height: 1.000000em;
+	text-align: center;
+}
+.c1{
+	-ibooks-strikethru-type: none;
+	-ibooks-underline-type: none;
+	background: transparent;
+	color: #021932;
+	font-family: "HiraginoSansGB-W3";
+	font-size: 83.3333%;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	letter-spacing: 0.0000em;
+	text-shadow: none;
+	text-transform: none;
+	vertical-align: 0.0000pt;
+	text-decoration: none;
+}
+.c2{
+	-ibooks-underline-type: single;
+	color: #4066A9;
+	font-family: "Georgia";
+	text-decoration: underline;
+}
+#textShape-1262-svg{
+	height: 20.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 150.000pt;
+}
+#textShape-1313-div{
+	height: 100.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 150.000pt;
+}
+#textShape-1269-div{
+	height: 20.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 150.000pt;
+}
+#textShape-1263-svg{
+	height: 20.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 150.000pt;
+}
+#textShape-1309{
+	-ibooks-slot: textShape-1309;
+	display: block;
+}
+#textShape-1269{
+	-ibooks-slot: textShape-1269;
+	display: block;
+}
+#textShape-1273{
+	-ibooks-box-wrap-exterior-path: directional contour both 12.0pt 0.000000 false;
+	display: block;
+	height: 12.368pt;
+	left: 0.000pt;
+	position: absolute;
+	top: 19.170pt;
+	width: 12.500pt;
+}
+#textShape-1313{
+	-ibooks-slot: textShape-1313;
+	display: block;
+}
+#textShape-1298-svg{
+	height: 20.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 150.000pt;
+}
+#textShape-1299{
+	-ibooks-slot: textShape-1299;
+	display: block;
+}
+#textShape-1314-div{
+	height: 100.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 150.000pt;
+}
+#textShape-1302{
+	-ibooks-slot: textShape-1302;
+	display: block;
+}
+#textShape-1262{
+	-ibooks-slot: textShape-1262;
+	display: block;
+}
+#textShape-1299-svg{
+	height: 20.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 150.000pt;
+}
+#textShape-1276-svg{
+	height: 20.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 150.000pt;
+}
+#textShape-1315-div{
+	height: 100.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 150.000pt;
+}
+#textShape-1288{
+	-ibooks-slot: textShape-1288;
+	display: block;
+}
+#textShape-1292{
+	-ibooks-box-wrap-exterior-path: directional contour both 12.0pt 0.000000 false;
+	display: block;
+	height: 25.000pt;
+	left: 10.000pt;
+	position: absolute;
+	top: 10.000pt;
+	width: 25.000pt;
+}
+#textShape-1344-svg{
+	height: 100.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 150.000pt;
+}
+#textShape-1277-svg{
+	height: 20.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 150.000pt;
+}
+#textShape-1316-div{
+	height: 100.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 150.000pt;
+}
+#textShape-1277{
+	-ibooks-slot: textShape-1277;
+	display: block;
+}
+#textShape-1281{
+	-ibooks-box-wrap-exterior-path: directional contour both 12.0pt 0.000000 false;
+	display: block;
+	height: 40.076pt;
+	left: 18.319pt;
+	position: absolute;
+	top: 4.008pt;
+	width: 40.076pt;
+}
+#textShape-1317{
+	-ibooks-slot: textShape-1317;
+	display: block;
+}
+#textShape-1295-div{
+	height: 20.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 150.000pt;
+}
+#textShape-1306{
+	-ibooks-slot: textShape-1306;
+	display: block;
+}
+#textShape-1266{
+	-ibooks-box-wrap-exterior-path: directional contour both 12.0pt 0.000000 false;
+	display: block;
+	height: 20.833pt;
+	left: 2.083pt;
+	position: absolute;
+	top: 8.333pt;
+	width: 8.333pt;
+}
+#textShape-1270{
+	-ibooks-box-wrap-exterior-path: directional contour both 12.0pt 0.000000 false;
+	display: block;
+	height: 12.368pt;
+	left: 0.000pt;
+	position: absolute;
+	top: 0.000pt;
+	width: 12.500pt;
+}
+#textShape-1300-svg{
+	height: 20.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 150.000pt;
+}
+#textShape-1310{
+	-ibooks-slot: textShape-1310;
+	display: block;
+}
+#textShape-1296{
+	-ibooks-box-wrap-exterior-path: directional contour both 12.0pt 0.000000 false;
+	display: block;
+	height: 50.000pt;
+	left: 0.000pt;
+	position: absolute;
+	top: 0.000pt;
+	width: 50.000pt;
+}
+#textShape-1301-svg{
+	height: 20.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 150.000pt;
+}
+#textShape-1285{
+	-ibooks-box-wrap-exterior-path: directional contour both 12.0pt 0.000000 false;
+	display: block;
+	height: 12.023pt;
+	left: 37.956pt;
+	position: absolute;
+	top: 8.616pt;
+	width: 12.023pt;
+}
+#textShape-1302-svg{
+	height: 20.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 150.000pt;
+}
+#textShape-1308-div{
+	height: 100.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 150.000pt;
+}
+#group-3-gen{
+	-ibooks-slot: group-3-gen;
+	display: block;
+}
+#textShape-1298-div{
+	height: 20.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 150.000pt;
+}
+#textShape-1274{
+	-ibooks-box-wrap-exterior-path: directional contour both 12.0pt 0.000000 false;
+	display: block;
+	height: 12.368pt;
+	left: 18.750pt;
+	position: absolute;
+	top: 19.170pt;
+	width: 12.500pt;
+}
+#textShape-1314{
+	-ibooks-slot: textShape-1314;
+	display: block;
+}
+#frame-109{
+	-ibooks-slot: frame-109;
+	display: block;
+}
+#textShape-1303-svg{
+	height: 10.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 50.000pt;
+}
+#textShape-1309-div{
+	height: 100.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 150.000pt;
+}
+#textShape-1344{
+	-ibooks-slot: textShape-1344;
+	display: block;
+}
+#textShape-1299-div{
+	height: 20.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 150.000pt;
+}
+#textShape-1276-div{
+	height: 20.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 150.000pt;
+}
+#textShape-1303{
+	display: block;
+	height: 10.000pt;
+	left: 10.000pt;
+	position: absolute;
+	top: 10.000pt;
+	width: 50.000pt;
+}
+#textShape-1263{
+	-ibooks-slot: textShape-1263;
+	display: block;
+}
+#textShape-1304-svg{
+	height: 100.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 150.000pt;
+}
+#group-2-gen{
+	-ibooks-slot: group-2-gen;
+	display: block;
+}
+#textShape-1289{
+	-ibooks-slot: textShape-1289;
+	display: block;
+}
+#textShape-1277-div{
+	height: 20.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 150.000pt;
+}
+#textShape-1293{
+	-ibooks-box-wrap-exterior-path: directional contour both 12.0pt 0.000000 false;
+	display: block;
+	height: 20.000pt;
+	left: 12.500pt;
+	position: absolute;
+	top: 12.500pt;
+	width: 20.000pt;
+}
+#textShape-1305-svg{
+	height: 100.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 150.000pt;
+}
+#group-8-gen{
+	-ibooks-slot: group-8-gen;
+	display: block;
+}
+#textShape-1278{
+	-ibooks-box-wrap-exterior-path: directional contour both 12.0pt 0.000000 false;
+	display: block;
+	height: 8.500pt;
+	left: 0.000pt;
+	position: absolute;
+	top: 0.000pt;
+	width: 50.000pt;
+}
+#textShape-1282{
+	-ibooks-box-wrap-exterior-path: directional contour both 12.0pt 0.000000 false;
+	display: block;
+	height: 40.076pt;
+	left: 8.300pt;
+	position: absolute;
+	top: 28.053pt;
+	transform: matrix(0.707107,-0.707107,0.707107,0.707107,0,0);
+	width: 40.076pt;
+}
+#textShape-1318{
+	-ibooks-slot: textShape-1318;
+	display: block;
+}
+#textShape-1306-svg{
+	height: 100.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 150.000pt;
+}
+#group-1-gen{
+	-ibooks-slot: group-1-gen;
+	display: block;
+}
+#textShape-1300-div{
+	height: 20.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 150.000pt;
+}
+#textShape-1307{
+	-ibooks-slot: textShape-1307;
+	display: block;
+}
+#textShape-1267{
+	-ibooks-box-wrap-exterior-path: directional contour both 12.0pt 0.000000 false;
+	display: block;
+	height: 20.833pt;
+	left: 39.583pt;
+	position: absolute;
+	top: 8.333pt;
+	width: 8.333pt;
+}
+#textShape-1271{
+	-ibooks-box-wrap-exterior-path: directional contour both 12.0pt 0.000000 false;
+	display: block;
+	height: 12.368pt;
+	left: 37.500pt;
+	position: absolute;
+	top: 0.000pt;
+	width: 12.500pt;
+}
+#textShape-1307-svg{
+	height: 100.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 150.000pt;
+}
+#textShape-1311{
+	-ibooks-slot: textShape-1311;
+	display: block;
+}
+#textShape-1301-div{
+	height: 20.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 150.000pt;
+}
+#textShape-1297{
+	-ibooks-box-wrap-exterior-path: directional contour both 12.0pt 0.000000 false;
+	display: block;
+	height: 45.000pt;
+	left: 2.500pt;
+	position: absolute;
+	top: 2.500pt;
+	width: 45.000pt;
+}
+#group-7-gen{
+	display: block;
+	height: 35.000pt;
+	left: 7.500pt;
+	position: absolute;
+	top: 7.500pt;
+	width: 35.000pt;
+}
+#group-0-gen{
+	-ibooks-slot: group-0-gen;
+	display: block;
+}
+#textShape-1300{
+	-ibooks-slot: textShape-1300;
+	display: block;
+}
+#textShape-1260{
+	-ibooks-slot: textShape-1260;
+	display: block;
+}
+#textShape-1308-svg{
+	height: 100.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 150.000pt;
+}
+#textShape-1302-div{
+	height: 20.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 150.000pt;
+}
+#textShape-1286{
+	-ibooks-box-wrap-exterior-path: directional contour both 12.0pt 0.000000 false;
+	display: block;
+	height: 48.091pt;
+	left: 14.311pt;
+	position: absolute;
+	top: 0.000pt;
+	width: 48.091pt;
+}
+#textShape-1290{
+	-ibooks-box-wrap-exterior-path: directional contour both 12.0pt 0.000000 false;
+	display: block;
+	height: 50.000pt;
+	left: 0.000pt;
+	position: absolute;
+	top: 0.000pt;
+	width: 50.000pt;
+}
+#textShape-1280-div{
+	height: 20.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 150.000pt;
+}
+#textShape-1309-svg{
+	height: 100.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 150.000pt;
+}
+#textShape-1287-svg{
+	height: 20.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 150.000pt;
+}
+#textShape-1303-div{
+	height: 10.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 50.000pt;
+}
+#group-6-gen{
+	display: block;
+	height: 50.000pt;
+	left: 0.000pt;
+	position: absolute;
+	top: 0.000pt;
+	width: 50.000pt;
+}
+#textShape-1275{
+	-ibooks-box-wrap-exterior-path: directional contour both 12.0pt 0.000000 false;
+	display: block;
+	height: 12.368pt;
+	left: 37.500pt;
+	position: absolute;
+	top: 18.552pt;
+	width: 12.500pt;
+}
+#textShape-1315{
+	-ibooks-slot: textShape-1315;
+	display: block;
+}
+#image-704{
+	display: block;
+	height: 27.000pt;
+	left: 0.000pt;
+	position: absolute;
+	top: 6.000pt;
+	width: 30.000pt;
+}
+#textShape-1304-div{
+	height: 100.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 150.000pt;
+}
+#textShape-1288-svg{
+	height: 20.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 150.000pt;
+}
+#textShape-1304{
+	-ibooks-slot: textShape-1304;
+	display: block;
+}
+#textShape-1264{
+	-ibooks-box-wrap-exterior-path: directional contour both 12.0pt 0.000000 false;
+	display: block;
+	height: 31.250pt;
+	left: 0.000pt;
+	position: absolute;
+	top: 0.000pt;
+	width: 50.000pt;
+}
+#textShape-1310-svg{
+	height: 100.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 150.000pt;
+}
+#textShape-1289-svg{
+	height: 20.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 150.000pt;
+}
+#textShape-1305-div{
+	height: 100.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 150.000pt;
+}
+#group-5-gen{
+	-ibooks-slot: group-5-gen;
+	display: block;
+}
+#textShape-1294{
+	-ibooks-box-wrap-exterior-path: directional contour both 12.0pt 0.000000 false;
+	display: block;
+	height: 25.000pt;
+	left: 0.000pt;
+	position: absolute;
+	top: 0.000pt;
+	width: 25.000pt;
+}
+#image-705{
+	-ibooks-slot: image-705;
+	display: block;
+}
+#image-124{
+	-ibooks-slot: image-124;
+	display: block;
+}
+#textShape-1311-svg{
+	height: 100.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 150.000pt;
+}
+#textShape-1317-div{
+	height: 100.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 150.000pt;
+}
+#textShape-1306-div{
+	height: 100.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 150.000pt;
+}
+#image-706{
+	-ibooks-slot: image-706;
+	display: block;
+}
+#image-710{
+	-ibooks-slot: image-710;
+	display: block;
+}
+#textShape-1261-div{
+	height: 40.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 190.000pt;
+}
+#textShape-1319{
+	-ibooks-slot: textShape-1319;
+	display: block;
+}
+#textShape-1279{
+	-ibooks-box-wrap-exterior-path: directional contour both 12.0pt 0.000000 false;
+	display: block;
+	height: 45.000pt;
+	left: 20.750pt;
+	position: absolute;
+	top: 8.500pt;
+	width: 8.500pt;
+}
+#textShape-1283{
+	-ibooks-box-wrap-exterior-path: directional contour both 12.0pt 0.000000 false;
+	display: block;
+	height: 40.076pt;
+	left: 29.625pt;
+	position: absolute;
+	top: 32.345pt;
+	transform: matrix(0.707107,-0.707107,0.707107,0.707107,0,0);
+	width: 40.076pt;
+}
+#textShape-1312-svg{
+	height: 100.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 150.000pt;
+}
+#textShape-1318-div{
+	height: 100.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 150.000pt;
+}
+#group-4-gen{
+	-ibooks-slot: group-4-gen;
+	display: block;
+}
+#textShape-1307-div{
+	height: 100.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 150.000pt;
+}
+#image-707{
+	-ibooks-box-wrap-exterior-path: directional contour both 12.0pt 0.500000 false;
+	display: block;
+	height: 15.625pt;
+	left: 16.667pt;
+	position: absolute;
+	top: 10.764pt;
+	width: 16.304pt;
+}
+#image-711{
+	-ibooks-box-wrap-exterior-path: directional contour both 12.0pt 0.500000 false;
+	display: block;
+	height: 23.500pt;
+	left: 13.000pt;
+	position: absolute;
+	top: 13.250pt;
+	width: 24.000pt;
+}
+#textShape-1262-div{
+	height: 20.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 150.000pt;
+}
+#textShape-1268{
+	-ibooks-box-wrap-exterior-path: directional contour both 12.0pt 0.000000 false;
+	display: block;
+	height: 20.833pt;
+	left: 12.500pt;
+	position: absolute;
+	top: 8.333pt;
+	width: 25.000pt;
+}
+#textShape-1272{
+	-ibooks-box-wrap-exterior-path: directional contour both 12.0pt 0.000000 false;
+	display: block;
+	height: 12.368pt;
+	left: 18.750pt;
+	position: absolute;
+	top: 0.000pt;
+	width: 12.500pt;
+}
+#textShape-1308{
+	-ibooks-slot: textShape-1308;
+	display: block;
+}
+#textShape-1312{
+	-ibooks-slot: textShape-1312;
+	display: block;
+}
+#textShape-1313-svg{
+	height: 100.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 150.000pt;
+}
+#textShape-1298{
+	-ibooks-slot: textShape-1298;
+	display: block;
+}
+#textShape-1269-svg{
+	height: 20.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 150.000pt;
+}
+#textShape-1280-svg{
+	height: 20.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 150.000pt;
+}
+#textShape-1263-div{
+	height: 20.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 150.000pt;
+}
+#image-708{
+	-ibooks-slot: image-708;
+	display: block;
+}
+#image-712{
+	-ibooks-slot: image-712;
+	display: block;
+}
+#textShape-1301{
+	-ibooks-slot: textShape-1301;
+	display: block;
+}
+#textShape-1261{
+	display: block;
+	height: 40.000pt;
+	left: 44.000pt;
+	position: absolute;
+	top: 0.000pt;
+	width: 190.000pt;
+}
+#textShape-1314-svg{
+	height: 100.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 150.000pt;
+}
+#textShape-1291{
+	-ibooks-box-wrap-exterior-path: directional contour both 12.0pt 0.000000 false;
+	display: block;
+	height: 45.000pt;
+	left: 2.500pt;
+	position: absolute;
+	top: 2.500pt;
+	width: 45.000pt;
+}
+#textShape-1287-div{
+	height: 20.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 150.000pt;
+}
+#image-709{
+	-ibooks-slot: image-709;
+	display: block;
+}
+#image-713{
+	-ibooks-slot: image-713;
+	display: block;
+}
+#textShape-1287{
+	-ibooks-slot: textShape-1287;
+	display: block;
+}
+#textShape-1315-svg{
+	height: 100.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 150.000pt;
+}
+#group-9-gen{
+	display: block;
+	height: 50.000pt;
+	left: 0.000pt;
+	position: absolute;
+	top: 0.000pt;
+	width: 50.000pt;
+}
+#textShape-1288-div{
+	height: 20.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 150.000pt;
+}
+#textShape-1276{
+	-ibooks-slot: textShape-1276;
+	display: block;
+}
+#image-714{
+	-ibooks-slot: image-714;
+	display: block;
+}
+#textShape-1280{
+	-ibooks-slot: textShape-1280;
+	display: block;
+}
+#textShape-1316{
+	-ibooks-slot: textShape-1316;
+	display: block;
+}
+#textShape-1316-svg{
+	height: 100.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 150.000pt;
+}
+#textShape-1344-div{
+	height: 100.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 150.000pt;
+}
+#textShape-1310-div{
+	height: 100.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 150.000pt;
+}
+#textShape-1289-div{
+	height: 20.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 150.000pt;
+}
+#textShape-1305{
+	-ibooks-slot: textShape-1305;
+	display: block;
+}
+#textShape-1265{
+	-ibooks-box-wrap-exterior-path: directional contour both 12.0pt 0.000000 false;
+	display: block;
+	height: 4.167pt;
+	left: 2.083pt;
+	position: absolute;
+	top: 2.083pt;
+	width: 45.833pt;
+}
+#image-715{
+	-ibooks-slot: image-715;
+	display: block;
+}
+#textShape-1295-svg{
+	height: 20.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 150.000pt;
+}
+#textShape-1311-div{
+	height: 100.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 150.000pt;
+}
+#textShape-1295{
+	-ibooks-slot: textShape-1295;
+	display: block;
+}
+#textShape-1317-svg{
+	height: 100.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 150.000pt;
+}
+#textShape-1261-svg{
+	height: 40.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 190.000pt;
+}
+#image-716{
+	-ibooks-box-wrap-exterior-path: directional contour both 12.0pt 0.500000 false;
+	display: block;
+	height: 34.675pt;
+	left: 20.000pt;
+	position: absolute;
+	top: 26.000pt;
+	width: 30.000pt;
+}
+#textShape-1318-svg{
+	height: 100.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 150.000pt;
+}
+#textShape-1312-div{
+	height: 100.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 150.000pt;
+}
+#textShape-1284{
+	-ibooks-box-wrap-exterior-path: directional contour both 12.0pt 0.000000 false;
+	display: block;
+	height: 40.076pt;
+	left: 18.319pt;
+	position: absolute;
+	top: 4.008pt;
+	width: 40.076pt;
+}

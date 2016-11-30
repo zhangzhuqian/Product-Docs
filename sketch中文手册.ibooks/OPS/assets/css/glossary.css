@@ -1,0 +1,64 @@
+@namespace ibooks "http://www.apple.com/2011/iBooks";
+sup{
+	font-size: 67%;
+	vertical-align: 33%;
+}
+dt{
+	margin-bottom: 20px;
+}
+a.pageShape{
+	-ibooks-layout-hint: anchor page shape;
+	display: none;
+}
+a.anchor{
+	-ibooks-layout-hint: anchor;
+	display: none;
+}
+div.multichoice{
+	list-style-type: upper-alpha;
+}
+p, ul, ol{
+	margin: 0px;
+}
+body{
+	white-space: pre-wrap;
+}
+dl{
+	margin: 0px;
+}
+a.shape{
+	-ibooks-layout-hint: shape;
+	display: none;
+}
+.columnbreak{
+	break-after: column;
+}
+.pagebreak{
+	break-after: page;
+}
+.hide{
+	display: none;
+}
+sub{
+	font-size: 67%;
+	vertical-align: -10%;
+}
+dd{
+	-webkit-margin-start: 0px;
+	margin-bottom: 20px;
+}
+a.attachment{
+	-ibooks-layout-hint: inline;
+	display: none;
+}
+table{
+	border-collapse: collapse;
+	white-space: pre-wrap;
+}
+.inlineblock{
+	display: inline;
+}
+a.page{
+	-ibooks-layout-hint: anchor page;
+	display: none;
+}

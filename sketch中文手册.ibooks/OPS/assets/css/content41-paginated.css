@@ -1,0 +1,92 @@
+@namespace ibooks "http://www.apple.com/2011/iBooks";
+#textShape-769{
+	-ibooks-line-hints: textShape-769 p url(../hints/content41-paginated.plist) 4 1;
+}
+#textShape-772{
+	-ibooks-line-hints: textShape-772 p url(../hints/content41-paginated.plist) 6 8;
+}
+#textShape-1161{
+	-ibooks-line-hints: textShape-1161 p url(../hints/content41-paginated.plist) 14 1;
+}
+#textShape-768{
+	-ibooks-line-hints: textShape-768 p url(../hints/content41-paginated.plist) 3 1;
+}
+#textShape-766{
+	-ibooks-line-hints: textShape-766 p url(../hints/content41-paginated.plist) 0 3;
+}
+#textShape-771{
+	-ibooks-line-hints: textShape-771 p url(../hints/content41-paginated.plist) 5 1;
+}
+@page ::nth-instance
+{
+	height: 748.0pt;
+	width: 1024.0pt;
+	::slot(textShape-766)
+	{
+		height: 400.000pt;
+		left: 112.000pt;
+		top: 230.000pt;
+		width: 800.000pt;
+		z-index: 1;
+	}
+	::slot(textShape-768)
+	{
+		height: 70.000pt;
+		left: 112.000pt;
+		top: 120.000pt;
+		width: 800.000pt;
+		z-index: 2;
+	}
+	::slot(textShape-769)
+	{
+		height: 20.000pt;
+		left: 78.000pt;
+		top: 38.000pt;
+		width: 800.000pt;
+		z-index: 3;
+	}
+	::slot(frame-54)
+	{
+		height: 71.000pt;
+		left: 5.000pt;
+		top: 4.000pt;
+		width: 80.000pt;
+		z-index: 4;
+	}
+	::slot(textShape-772)
+	{
+		height: 260.000pt;
+		left: 112.000pt;
+		top: 370.000pt;
+		width: 420.000pt;
+		z-index: 5;
+	}
+	::slot(image-432)
+	{
+		-ibooks-box-wrap-exterior-path: directional contour both 12.0pt 0.500000 false;
+		height: 300.000pt;
+		left: 547.000pt;
+		top: 347.000pt;
+		width: 400.000pt;
+		z-index: 6;
+	}
+	::slot(image-589)
+	{
+		-ibooks-box-wrap-exterior-path: directional contour both 12.0pt 0.500000 false;
+		height: 30.000pt;
+		left: 497.000pt;
+		top: 680.000pt;
+		width: 30.000pt;
+		z-index: 7;
+	}
+	::slot(textShape-1161)
+	{
+		height: 100.000pt;
+		left: 462.000pt;
+		top: 645.000pt;
+		width: 100.000pt;
+		z-index: 8;
+	}
+	-ibooks-positioned-slots: textShape-766, textShape-768, textShape-769, frame-54, textShape-772, image-432, image-589, textShape-1161;
+}
+

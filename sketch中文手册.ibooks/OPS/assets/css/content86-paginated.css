@@ -1,0 +1,182 @@
+@namespace ibooks "http://www.apple.com/2011/iBooks";
+#textShape-1337{
+	-ibooks-line-hints: textShape-1337 p url(../hints/content86-paginated.plist) 15 18;
+}
+#textShape-1345{
+	-ibooks-line-hints: textShape-1345 p url(../hints/content86-paginated.plist) 14 1;
+}
+#textShape-1340{
+	-ibooks-line-hints: textShape-1340 p url(../hints/content86-paginated.plist) 33 2;
+}
+#textShape-116{
+	-ibooks-line-hints: textShape-116 p url(../hints/content86-paginated.plist) 44 2;
+}
+#textShape-1343{
+	-ibooks-line-hints: textShape-1343 p url(../hints/content86-paginated.plist) 43 1;
+}
+#textShape-120{
+	-ibooks-line-hints: textShape-120 p url(../hints/content86-paginated.plist) 46 1;
+}
+#textShape-1341{
+	-ibooks-line-hints: textShape-1341 p url(../hints/content86-paginated.plist) 35 2;
+}
+#textShape-779{
+	-ibooks-line-hints: textShape-779 p url(../hints/content86-paginated.plist) 47 1;
+}
+#textShape-1339{
+	-ibooks-line-hints: textShape-1339 p url(../hints/content86-paginated.plist) 2 12;
+}
+#textShape-1342{
+	-ibooks-line-hints: textShape-1342 p url(../hints/content86-paginated.plist) 37 6;
+}
+@page ::nth-instance
+{
+	height: 748.0pt;
+	width: 1024.0pt;
+	::slot(textShape-1339)
+	{
+		height: 300.000pt;
+		left: 750.000pt;
+		top: 277.000pt;
+		width: 196.000pt;
+		z-index: 1;
+	}
+	::slot(frame-93)
+	{
+		-ibooks-box-wrap-exterior-path: directional rectangular both 12.0pt 0.500000 false;
+		height: 140.000pt;
+		left: 740.000pt;
+		top: 460.000pt;
+		width: 120.000pt;
+		z-index: 2;
+	}
+	::slot(frame-110)
+	{
+		-ibooks-box-wrap-exterior-path: directional rectangular both 12.0pt 0.500000 false;
+		height: 143.000pt;
+		left: 90.000pt;
+		top: 47.000pt;
+		width: 120.000pt;
+		z-index: 3;
+	}
+	::slot(textShape-1337)
+	{
+		height: 385.000pt;
+		left: 100.000pt;
+		top: 214.000pt;
+		width: 590.000pt;
+		z-index: 4;
+	}
+	::slot(textShape-1338)
+	{
+		-ibooks-box-wrap-exterior-path: directional contour both 12.0pt 0.000000 false;
+		height: 500.473pt;
+		left: 720.223pt;
+		top: 79.527pt;
+		width: 0.000pt;
+		z-index: 5;
+	}
+	::slot(image-720)
+	{
+		-ibooks-box-wrap-exterior-path: directional contour both 12.0pt 0.500000 false;
+		height: 42.000pt;
+		left: 750.000pt;
+		top: 211.000pt;
+		width: 30.000pt;
+		z-index: 6;
+	}
+	::slot(image-721)
+	{
+		-ibooks-box-wrap-exterior-path: directional contour both 12.0pt 0.500000 false;
+		height: 32.000pt;
+		left: 819.000pt;
+		top: 216.000pt;
+		width: 32.000pt;
+		z-index: 7;
+	}
+	::slot(textShape-1340)
+	{
+		height: 50.000pt;
+		left: 740.000pt;
+		top: 207.000pt;
+		width: 50.000pt;
+		z-index: 8;
+	}
+	::slot(textShape-1341)
+	{
+		height: 50.000pt;
+		left: 810.000pt;
+		top: 207.000pt;
+		width: 50.000pt;
+		z-index: 9;
+	}
+	::slot(textShape-1342)
+	{
+		height: 100.000pt;
+		left: 250.000pt;
+		top: 80.000pt;
+		width: 440.000pt;
+		z-index: 10;
+	}
+	::slot(textShape-1343)
+	{
+		height: 14.000pt;
+		left: 100.000pt;
+		top: 639.000pt;
+		width: 846.000pt;
+		z-index: 11;
+	}
+	::slot(image-723)
+	{
+		-ibooks-box-wrap-exterior-path: directional contour both 12.0pt 0.500000 false;
+		height: 27.000pt;
+		left: 497.000pt;
+		top: 681.000pt;
+		width: 30.000pt;
+		z-index: 12;
+	}
+	::slot(image-25)
+	{
+		-ibooks-box-wrap-exterior-path: directional contour both 12.0pt 0.500000 false;
+		height: 100.000pt;
+		left: 792.000pt;
+		top: 87.000pt;
+		width: 84.694pt;
+		z-index: 13;
+	}
+	::slot(image-34)
+	{
+		-ibooks-box-wrap-exterior-path: directional contour both 12.0pt 0.500000 false;
+		height: 40.000pt;
+		left: 885.000pt;
+		top: 212.000pt;
+		width: 39.212pt;
+		z-index: 14;
+	}
+	::slot(textShape-116)
+	{
+		height: 50.000pt;
+		left: 880.000pt;
+		top: 207.000pt;
+		width: 50.000pt;
+		z-index: 15;
+	}
+	::slot(textShape-120)
+	{
+		height: 100.000pt;
+		left: 760.000pt;
+		top: 87.000pt;
+		width: 150.000pt;
+		z-index: 16;
+	}
+	::slot(textShape-779)
+	{
+		height: 100.000pt;
+		left: 462.000pt;
+		top: 645.000pt;
+		width: 100.000pt;
+		z-index: 17;
+	}
+	-ibooks-positioned-slots: textShape-1339, frame-93, frame-110, textShape-1337, textShape-1338, image-720, image-721, textShape-1340, textShape-1341, textShape-1342, textShape-1343, image-723, image-25, image-34, textShape-116, textShape-120, textShape-779;
+}
+

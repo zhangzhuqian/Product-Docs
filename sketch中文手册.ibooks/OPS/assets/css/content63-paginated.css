@@ -1,0 +1,81 @@
+@namespace ibooks "http://www.apple.com/2011/iBooks";
+#textShape-1074{
+	-ibooks-line-hints: textShape-1074 p url(../hints/content63-paginated.plist) 0 8;
+}
+#textShape-1077{
+	-ibooks-line-hints: textShape-1077 p url(../hints/content63-paginated.plist) 9 1;
+}
+#textShape-1188{
+	-ibooks-line-hints: textShape-1188 p url(../hints/content63-paginated.plist) 11 1;
+}
+#textShape-1076{
+	-ibooks-line-hints: textShape-1076 p url(../hints/content63-paginated.plist) 8 1;
+}
+#textShape-1079{
+	-ibooks-line-hints: textShape-1079 p url(../hints/content63-paginated.plist) 10 1;
+}
+@page ::nth-instance
+{
+	height: 748.0pt;
+	width: 1024.0pt;
+	::slot(textShape-1074)
+	{
+		height: 360.000pt;
+		left: 112.000pt;
+		top: 270.000pt;
+		width: 590.000pt;
+		z-index: 1;
+	}
+	::slot(textShape-1076)
+	{
+		height: 70.000pt;
+		left: 112.000pt;
+		top: 120.000pt;
+		width: 800.000pt;
+		z-index: 2;
+	}
+	::slot(textShape-1077)
+	{
+		height: 20.000pt;
+		left: 78.000pt;
+		top: 38.000pt;
+		width: 800.000pt;
+		z-index: 3;
+	}
+	::slot(frame-77)
+	{
+		height: 71.000pt;
+		left: 5.000pt;
+		top: 4.000pt;
+		width: 80.000pt;
+		z-index: 4;
+	}
+	::slot(image-455)
+	{
+		-ibooks-box-wrap-exterior-path: directional contour both 12.0pt 0.500000 false;
+		height: 376.000pt;
+		left: 732.000pt;
+		top: 267.000pt;
+		width: 180.000pt;
+		z-index: 5;
+	}
+	::slot(image-613)
+	{
+		-ibooks-box-wrap-exterior-path: directional contour both 12.0pt 0.500000 false;
+		height: 30.000pt;
+		left: 497.000pt;
+		top: 680.000pt;
+		width: 30.000pt;
+		z-index: 6;
+	}
+	::slot(textShape-1188)
+	{
+		height: 100.000pt;
+		left: 462.000pt;
+		top: 645.000pt;
+		width: 100.000pt;
+		z-index: 7;
+	}
+	-ibooks-positioned-slots: textShape-1074, textShape-1076, textShape-1077, frame-77, image-455, image-613, textShape-1188;
+}
+

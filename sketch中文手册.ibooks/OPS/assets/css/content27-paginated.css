@@ -1,0 +1,92 @@
+@namespace ibooks "http://www.apple.com/2011/iBooks";
+#textShape-408{
+	-ibooks-line-hints: textShape-408 p url(../hints/content27-paginated.plist) 3 3;
+}
+#textShape-413{
+	-ibooks-line-hints: textShape-413 p url(../hints/content27-paginated.plist) 6 4;
+}
+#textShape-404{
+	-ibooks-line-hints: textShape-404 p url(../hints/content27-paginated.plist) 0 1;
+}
+#textShape-1084{
+	-ibooks-line-hints: textShape-1084 p url(../hints/content27-paginated.plist) 10 1;
+}
+#textShape-407{
+	-ibooks-line-hints: textShape-407 p url(../hints/content27-paginated.plist) 2 1;
+}
+#textShape-405{
+	-ibooks-line-hints: textShape-405 p url(../hints/content27-paginated.plist) 1 1;
+}
+@page ::nth-instance
+{
+	height: 748.0pt;
+	width: 1024.0pt;
+	::slot(textShape-404)
+	{
+		height: 70.000pt;
+		left: 112.000pt;
+		top: 120.000pt;
+		width: 800.000pt;
+		z-index: 1;
+	}
+	::slot(textShape-405)
+	{
+		height: 20.000pt;
+		left: 78.000pt;
+		top: 38.000pt;
+		width: 800.000pt;
+		z-index: 2;
+	}
+	::slot(frame-13)
+	{
+		height: 71.000pt;
+		left: 10.000pt;
+		top: 4.000pt;
+		width: 70.000pt;
+		z-index: 3;
+	}
+	::slot(textShape-408)
+	{
+		height: 390.000pt;
+		left: 112.000pt;
+		top: 270.000pt;
+		width: 800.000pt;
+		z-index: 4;
+	}
+	::slot(textShape-413)
+	{
+		height: 250.000pt;
+		left: 112.000pt;
+		top: 410.000pt;
+		width: 500.000pt;
+		z-index: 5;
+	}
+	::slot(image-48)
+	{
+		-ibooks-box-wrap-exterior-path: directional contour both 12.0pt 0.500000 false;
+		height: 212.000pt;
+		left: 676.000pt;
+		top: 400.000pt;
+		width: 212.000pt;
+		z-index: 6;
+	}
+	::slot(image-252)
+	{
+		-ibooks-box-wrap-exterior-path: directional contour both 12.0pt 0.500000 false;
+		height: 30.000pt;
+		left: 497.000pt;
+		top: 680.000pt;
+		width: 30.000pt;
+		z-index: 7;
+	}
+	::slot(textShape-1084)
+	{
+		height: 100.000pt;
+		left: 462.000pt;
+		top: 645.000pt;
+		width: 100.000pt;
+		z-index: 8;
+	}
+	-ibooks-positioned-slots: textShape-404, textShape-405, frame-13, textShape-408, textShape-413, image-48, image-252, textShape-1084;
+}
+

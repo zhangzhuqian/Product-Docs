@@ -1,0 +1,153 @@
+@namespace ibooks "http://www.apple.com/2011/iBooks";
+#textShape-1122{
+	-ibooks-line-hints: textShape-1122 p url(../hints/content82-paginated.plist) 0 10;
+}
+#textShape-1198{
+	-ibooks-line-hints: textShape-1198 p url(../hints/content82-paginated.plist) 11 1;
+}
+#textShape-1200{
+	-ibooks-line-hints: textShape-1200 p url(../hints/content82-paginated.plist) 35 1;
+}
+#textShape-1165{
+	-ibooks-line-hints: textShape-1165 p url(../hints/content82-paginated.plist) 12 12;
+}
+#textShape-1199{
+	-ibooks-line-hints: textShape-1199 p url(../hints/content82-paginated.plist) 24 1;
+}
+#textShape-1194{
+	-ibooks-line-hints: textShape-1194 p url(../hints/content82-paginated.plist) 25 10;
+}
+#textShape-1142{
+	-ibooks-line-hints: textShape-1142 p url(../hints/content82-paginated.plist) 10 1;
+}
+@page ::nth-instance
+{
+	height: 748.0pt;
+	width: 1024.0pt;
+	::slot(textShape-1121)
+	{
+		-ibooks-box-wrap-exterior-path: directional contour both 12.0pt 0.000000 false;
+		height: 748.000pt;
+		left: 0.000pt;
+		top: 0.000pt;
+		width: 1024.000pt;
+		z-index: 1;
+	}
+	::slot(textShape-1122)
+	{
+		height: 370.000pt;
+		left: 113.000pt;
+		top: 240.000pt;
+		width: 800.000pt;
+		z-index: 2;
+	}
+	::slot(textShape-1142)
+	{
+		height: 40.000pt;
+		left: 113.000pt;
+		top: 100.000pt;
+		width: 800.000pt;
+		z-index: 3;
+	}
+	::slot(image-610)
+	{
+		-ibooks-box-wrap-exterior-path: directional contour both 12.0pt 0.500000 false;
+		height: 34.675pt;
+		left: 497.000pt;
+		top: 676.000pt;
+		width: 30.000pt;
+		z-index: 4;
+	}
+	::slot(textShape-1198)
+	{
+		height: 20.000pt;
+		left: 945.000pt;
+		top: 38.000pt;
+		width: 50.000pt;
+		z-index: 5;
+	}
+	-ibooks-positioned-slots: textShape-1121, textShape-1122, textShape-1142, image-610, textShape-1198;
+}
+
+@page ::nth-instance
+{
+	height: 748.0pt;
+	width: 1024.0pt;
+	::slot(textShape-1164)
+	{
+		-ibooks-box-wrap-exterior-path: directional contour both 12.0pt 0.000000 false;
+		height: 748.000pt;
+		left: 0.000pt;
+		top: 0.000pt;
+		width: 1024.000pt;
+		z-index: 1;
+	}
+	::slot(textShape-1165)
+	{
+		height: 410.000pt;
+		left: 112.000pt;
+		top: 149.000pt;
+		width: 800.000pt;
+		z-index: 2;
+	}
+	::slot(image-624)
+	{
+		-ibooks-box-wrap-exterior-path: directional contour both 12.0pt 0.500000 false;
+		height: 34.675pt;
+		left: 497.000pt;
+		top: 676.000pt;
+		width: 30.000pt;
+		z-index: 3;
+	}
+	::slot(textShape-1199)
+	{
+		height: 20.000pt;
+		left: 945.000pt;
+		top: 38.000pt;
+		width: 50.000pt;
+		z-index: 4;
+	}
+	-ibooks-positioned-slots: textShape-1164, textShape-1165, image-624, textShape-1199;
+}
+
+@page ::nth-instance
+{
+	height: 748.0pt;
+	width: 1024.0pt;
+	::slot(textShape-1193)
+	{
+		-ibooks-box-wrap-exterior-path: directional contour both 12.0pt 0.000000 false;
+		height: 748.000pt;
+		left: 0.000pt;
+		top: 0.000pt;
+		width: 1024.000pt;
+		z-index: 1;
+	}
+	::slot(textShape-1194)
+	{
+		height: 410.000pt;
+		left: 112.000pt;
+		top: 149.000pt;
+		width: 800.000pt;
+		z-index: 2;
+	}
+	::slot(image-625)
+	{
+		-ibooks-box-wrap-exterior-path: directional contour both 12.0pt 0.500000 false;
+		height: 34.675pt;
+		left: 497.000pt;
+		top: 676.000pt;
+		width: 30.000pt;
+		z-index: 3;
+	}
+	::slot(textShape-1200)
+	{
+		height: 20.000pt;
+		left: 945.000pt;
+		top: 38.000pt;
+		width: 50.000pt;
+		z-index: 4;
+	}
+	-ibooks-positioned-slots: textShape-1193, textShape-1194, image-625, textShape-1200;
+}
+
